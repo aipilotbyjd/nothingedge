@@ -1,0 +1,11 @@
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/splitting.js"></script>
+<script src="assets/js/scroll-out.js"></script>
+<script src="assets/js/jquery.pagepiling.js"></script>
+<script src="assets/js/jquery.easy_number_animate.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/imagesloaded.pkgd.js"></script>
+<script src="assets/js/isotope.pkgd.js"></script>
+<script src="assets/js/common.js"></script>
