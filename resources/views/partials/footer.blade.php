@@ -14,11 +14,11 @@
 
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
-
                     <!-- Description -->
                     <div class="onovo-text onovo-text-white">
                         <h5>Get in Touch</h5>
-                        <p style="opacity: 0.6;">Baird House, 15-17 St Cross St <br />London EC1N 8UW </p>
+                        <p style="opacity: 0.6;">111, Sankalp Icon, Police station, Main Rd, <br /> opp. Parikh Hospital
+                            Nikol, Ahmedabad, Gujarat 382350 </p>
                         <p style="opacity: 0.6;">
                             <a href="tel:+10204302973" class="onovo-lnk lnk--white" target="_blank">+ 1 (020)
                                 430 2973</a><br>
@@ -37,7 +37,7 @@
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
                                 <a href='assets/images/post5.jpg'>
-                                    <img src="assets/images/post5-1024x683.jpg" alt="" />
+                                    <img src="{{ asset('public/assets/images/post5-1024x683.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>
@@ -99,8 +99,8 @@
 
                     <!-- Copyright -->
                     <div class="copyright onovo-text-white">
-                        © 2023 ONOVO by <a href="https://bslthemes.com" target="blank"
-                            class="onovo-lnk lnk--white">bslthemes Team</a>. All rights reserved.
+                        © 2023 <a href="{{ route('home') }}" target="blank" class="onovo-lnk lnk--white">NothingEdge
+                            Technology</a>. All rights reserved.
                     </div>
 
                 </div>

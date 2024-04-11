@@ -7,7 +7,7 @@
                     <!-- Logo -->
                     <div class="onovo-logo-image" style="max-width: 70px">
                         <a href="{{ route('home') }}">
-                            <img src="assets/images/logo-black.png" alt="Onovo" />
+                            <img src="{{ asset('assets/images/logo-main.png') }}" assets/images/logo-black.png" alt="Onovo" />
                             <img class="logo--white" src="assets/images/logo-main.png" alt="Onovo" />
                         </a>
                     </div>
@@ -83,11 +83,11 @@
                                         </li>
                                         <li class="dropdown-link menu-item-has-children">
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
-                                                href="projects.html">Projects</a>
+                                                href="{{ route('projects') }}">Projects</a>
                                             <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="projects.html">Projects
+                                                    <a class="onovo-lnk lnk--active" href="{{ route('projects') }}">Projects
                                                         Grid</a>
                                                 </li>
                                                 <li>
@@ -110,7 +110,8 @@
                                                     <a class="onovo-lnk lnk--active" href="gallery.html">Gallery</a>
                                                 </li>
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="{{ route('projects') }}">Project
+                                                    <a class="onovo-lnk lnk--active"
+                                                        href="{{ route('projects') }}">Project
                                                         Detail</a>
                                                 </li>
                                             </ul>
