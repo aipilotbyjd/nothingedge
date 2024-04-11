@@ -6,7 +6,7 @@
 
                     <!-- Logo -->
                     <div class="onovo-logo-image" style="max-width: 70px">
-                        <a href="index.html">
+                        <a href="{{ route('home') }}">
                             <img src="assets/images/logo-black.png" alt="Onovo" />
                             <img class="logo--white" src="assets/images/logo-main.png" alt="Onovo" />
                         </a>
@@ -53,18 +53,20 @@
                                             <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="about-us.html">About
+                                                    <a class="onovo-lnk lnk--active"
+                                                        href="{{ route('about-us') }}">About
                                                         Us</a>
                                                 </li>
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="team.html">Team</a>
+                                                    <a class="onovo-lnk lnk--active" href="{{ route('team') }}">Team</a>
                                                 </li>
                                                 <li>
                                                     <a class="onovo-lnk lnk--active" href="team-detail.html">Team
                                                         Detail</a>
                                                 </li>
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="services.html">Services</a>
+                                                    <a class="onovo-lnk lnk--active"
+                                                        href="{{ route('services') }}">Services</a>
                                                 </li>
                                                 <li>
                                                     <a class="onovo-lnk lnk--active" href="service-detail.html">Service
