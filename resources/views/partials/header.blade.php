@@ -110,7 +110,7 @@
                                                     <a class="onovo-lnk lnk--active" href="gallery.html">Gallery</a>
                                                 </li>
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="project-detail.html">Project
+                                                    <a class="onovo-lnk lnk--active" href="{{ route('projects') }}">Project
                                                         Detail</a>
                                                 </li>
                                             </ul>
@@ -128,13 +128,14 @@
                                                     <a class="onovo-lnk lnk--active" href="blog-list.html">Blog List</a>
                                                 </li>
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="blog-detail.html">Blog
+                                                    <a class="onovo-lnk lnk--active" href={{ route('blog') }}">Blog
                                                         Detail</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="onovo-lnk lnk--active" href="contact-us.html">Contact
+                                            <a class="onovo-lnk lnk--active"
+                                                href=""{{ route('contact-us') }}">Contact
                                                 Us</a>
                                         </li>
                                     </ul>

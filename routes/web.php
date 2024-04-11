@@ -26,4 +26,4 @@ Route::get('/about-us', [AboutUsPageController::class, 'index'])->name('about-us
 Route::get('/services', [ServicesPageController::class, 'index'])->name('services');
 Route::get('/team', [TeamPageController::class, 'index'])->name('team');
 Route::get('/blog', [BlogPageController::class, 'index'])->name('blog');
-Route::get('/projects', [ProjectsPageController::class, 'index'])->name('blog');
+Route::get('/projects', [ProjectsPageController::class, 'index'])->name('projects');
