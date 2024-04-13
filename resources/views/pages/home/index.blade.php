@@ -46,7 +46,7 @@
                     <div class="onovo-service-grid-item onovo-hover-1">
                         <div class="image">
                             <a href="services.html">
-                                <img decoding="async" src="assets/images/serv-icon1.png" alt="Creation" />
+                                <img decoding="async" src="{{ asset('assets/images/serv-icon1.png') }}" alt="Creation" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">

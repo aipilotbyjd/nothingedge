@@ -7,8 +7,8 @@
                     <!-- Logo -->
                     <div class="onovo-logo-image" style="max-width: 70px">
                         <a href="{{ route('home') }}">
-                            <img src="assets/images/logo-black.png" alt="Onovo" />
-                            <img class="logo--white" src="assets/images/logo-main.png" alt="Onovo" />
+                            <img  src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}" alt="Onovo" />
+                            <img class="logo--white" src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}" alt="Onovo" />
                         </a>
                     </div>
 
@@ -110,7 +110,8 @@
                                                     <a class="onovo-lnk lnk--active" href="gallery.html">Gallery</a>
                                                 </li>
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="{{ route('projects') }}">Project
+                                                    <a class="onovo-lnk lnk--active"
+                                                        href="{{ route('projects') }}">Project
                                                         Detail</a>
                                                 </li>
                                             </ul>
