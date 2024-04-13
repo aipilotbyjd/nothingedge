@@ -83,11 +83,11 @@
                                         </li>
                                         <li class="dropdown-link menu-item-has-children">
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
-                                                href="projects.html">Projects</a>
+                                                href="{{ route('projects') }}">Projects</a>
                                             <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="projects.html">Projects
+                                                    <a class="onovo-lnk lnk--active" href="{{ route('projects') }}">Projects
                                                         Grid</a>
                                                 </li>
                                                 <li>
