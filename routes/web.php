@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomePageController::class, 'index'])->name('home');
 Route::get('/contact-us', [ContactUsPageController::class, 'index'])->name('contact-us');
+Route::post('/contact-us-form', [ContactUsPageController::class, 'ContactUsForm'])->name('contactUs.form');
 Route::get('/about-us', [AboutUsPageController::class, 'index'])->name('about-us');
 Route::get('/services', [ServicesPageController::class, 'index'])->name('services');
 Route::get('/team', [TeamPageController::class, 'index'])->name('team');

@@ -40,7 +40,8 @@
 
                     <!-- Form -->
                     <div class="onovo-form">
-                        <form id="cform" class="cform" method="post">
+                        <form id="cform" class="cform" method="post" action="{{ route('contactUs.form') }}">
+                            @csrf
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <p>
@@ -110,7 +111,8 @@
                             </li>
                             <li>
                                 <h5>Houston</h5>
-                                <div>2001 N. Clybourn Avenue Suite 202, <br>Block D, IL 60614</div>
+                                <div>111, Sankalp Icon, Police station, Main Rd,
+                                    opp. Parikh Hospital Nikol, Ahmedabad, Gujarat 382350</div>
                             </li>
                             <li>
                                 <h5>Los Angeles</h5>
@@ -229,4 +231,52 @@
 
         </div>
     </section>
+@endsection
+@section('script')
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#cform').validate({
+                rules: {
+                    name: {
+                        required: true,
+                        maxlength: 50
+                    },
+                    email: {
+                        required: true,
+                        email: true,
+                        maxlength: 50
+                    },
+                    tel: {
+                        required: true
+                    }
+                },
+                s: {
+                    name: 'Please enter your full name',
+                    email: {
+                        required: 'Please enter your email address',
+                        email: 'Please enter a valid email address'
+                    },
+                    tel: 'Please enter your phone number',
+                },
+                submitHandler: function(form) {
+                    var formData = $(form).serialize();
+                    $.ajax({
+                        url: $(form).attr('action'),
+                        type: $(form).attr('method'),
+                        data: formData,
+                        success: function(response) {
+                            $(form).hide();
+                            $('.alert-success').show();
+                        },
+                        error: function(xhr, status, error) {
+                            alert(
+                                'An error occurred while processing your request. Please try again later.'
+                            );
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 @endsection
