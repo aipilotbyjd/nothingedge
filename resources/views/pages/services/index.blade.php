@@ -16,7 +16,7 @@
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="{{ route('home') }}">Home </a>
                     </li>
                     <li class="current">
                         <span>Services </span>
@@ -37,41 +37,51 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-service-item">
                         <div class="image">
-                            <a href="service-detail.html">
-                                <img src="assets/images/serv-icon4.png" alt="Brand Creation" />
+                            <a href="{{ route('web-development-services-detail') }}">
+                                <img src="{{ asset('assets/images/serv-icon4.png') }}" alt="Web Development" />
                             </a>
                         </div>
                         <div class="onovo-service-item-inner onovo-hover-3 onovo-hover-black">
                             <h5 class="title">
-                                <a href="service-detail.html">
-                                    <span data-splitting data-onovo-scroll> Brand Creation </span>
+                                <a href="{{ route('web-development-services-detail') }}">
+                                    <span data-splitting data-onovo-scroll> Web Development </span>
                                 </a>
                             </h5>
                             <div class="list">
                                 <ul>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Brand Strategy </span>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> PHP Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Visual Identity </span>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Laravel Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Naming </span>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> CodeIgniter Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Toolkits </span>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> NodeJS Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Guidelines </span>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> ReactJS Development </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Wordprees/Shopify Development </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="onovo-lnk" href="{{ route('web-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Ecommerce Development </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -85,40 +95,40 @@
                     <div class="onovo-service-item">
                         <div class="image">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon5.png" alt="Web Campaigns" />
+                                <img src="{{ asset('assets/images/serv-icon5.png') }}" alt="App Development" />
                             </a>
                         </div>
                         <div class="onovo-service-item-inner onovo-hover-3 onovo-hover-black">
                             <h5 class="title">
                                 <a href="service-detail.html">
-                                    <span data-splitting data-onovo-scroll> Web Campaigns </span>
+                                    <span data-splitting data-onovo-scroll> App Development </span>
                                 </a>
                             </h5>
                             <div class="list">
                                 <ul>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Creative Strategy </span>
+                                            <span data-splitting data-onovo-scroll> iOS App Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Creative Direction </span>
+                                            <span data-splitting data-onovo-scroll> Android App Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Concepts </span>
+                                            <span data-splitting data-onovo-scroll> React Native App Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Copywriting </span>
+                                            <span data-splitting data-onovo-scroll> Flutter App Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Social Media </span>
+                                            <span data-splitting data-onovo-scroll> Kotlin App Development </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -145,27 +155,22 @@
                                 <ul>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Native and Web Apps </span>
+                                            <span data-splitting data-onovo-scroll> Figma Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Campaign / Brand Sites </span>
+                                            <span data-splitting data-onovo-scroll> Sketch Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Machine Learning / AI </span>
+                                            <span data-splitting data-onovo-scroll> Framer Development </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Brand Design </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Product Animation Design </span>
+                                            <span data-splitting data-onovo-scroll> Adobe XD Development </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -180,7 +185,7 @@
     </section>
 
     <!-- Onovo Numbers -->
-    <section class="onovo-section gap-bottom-140">
+    {{-- <section class="onovo-section gap-bottom-140">
         <div class="container">
 
             <!-- Numbers items -->
@@ -215,7 +220,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
     <!-- Onovo Video -->
     <section class="onovo-section">
@@ -258,7 +263,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon4.png" alt="Brand Strategy" />
+                                <img src="{{ asset('assets/images/serv-icon4.png') }}" alt="Web Development" />
                             </a>
                         </div>
                         <div class="num">
@@ -266,12 +271,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Brand Strategy </span>
+                                <span> Web Development </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>We offer custom web application development that fits customer requirements. Our service
+                                    includes the full life cycle of software development life cycle.
                                 </p>
                             </div>
                         </div>
@@ -283,7 +289,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon6.png" alt="Visual Identity" />
+                                <img src="{{ asset('assets/images/serv-icon6.png') }}" alt="Mobile Development" />
                             </a>
                         </div>
                         <div class="num">
@@ -291,12 +297,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Visual Identity </span>
+                                <span>Mobile Development </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>Smartphone application is better than a mobile website, So we also offer mobile
+                                    application development for customer business needs.
                                 </p>
                             </div>
                         </div>
@@ -308,7 +315,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon1.png" alt="Copywriting" />
+                                <img src="{{ asset('assets/images/serv-icon1.png') }}" alt="UI/UX Design" />
                             </a>
                         </div>
                         <div class="num">
@@ -316,12 +323,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Copywriting </span>
+                                <span> UI/UX Design </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>We offer UI/UX design service that meets smooth user experience in customer's
+                                    application, which is the most important part of the application.
                                 </p>
                             </div>
                         </div>
@@ -333,7 +341,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon5.png" alt="Creative Strategy" />
+                                <img src="{{ asset('assets/images/serv-icon5.png') }}" alt="E-commerce" />
                             </a>
                         </div>
                         <div class="num">
@@ -341,12 +349,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Creative Strategy </span>
+                                <span> E-commerce </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>We design with the user in mind, We develop with experiences to up your business grind.
+                                    Responsive, Fast Loading and Fraud-proof are the pillars of our E-commerce Expertise.
                                 </p>
                             </div>
                         </div>
@@ -358,7 +367,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon3.png" alt="Native &amp; Web Apps" />
+                                <img src="{{ asset('assets/images/serv-icon3.png') }}" alt="Branding" />
                             </a>
                         </div>
                         <div class="num">
@@ -366,12 +375,14 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Native &amp; Web Apps </span>
+                                <span> Branding </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>Brand consistency across all touchpoints, creating a unified brand-user experience and
+                                    branding components into your product’s visual design and language that create a
+                                    delightful experience.
                                 </p>
                             </div>
                         </div>
@@ -404,8 +415,9 @@
 
                     <!-- Text -->
                     <div class="onovo-cta-text">
-                        <a href="mailto:infoname@domain.com" target="_blank">infoname@domain.com</a>
-                        <p>36 East 8th Street, New York, <br />NY 10003, United States. </p>
+                        <a href="mailto:contact@nothingedge.com" target="_blank">contact@nothingedge.com</a>
+                        <p>111, Sankalp Icon, Police station, Main Rd,
+                            opp. Parikh Hospital Nikol, Ahmedabad, Gujarat 382350.</p>
                     </div>
 
                 </div>
@@ -422,14 +434,16 @@
                             <ul>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://facebook.com" target="_blank">
+                                        href="https://www.facebook.com/nothingedge.technology?mibextid=ZbWKwL"
+                                        target="_blank">
                                         <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                         <span> Facebook </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://instagram.com" target="_blank">
+                                        href="https://www.instagram.com/nothingedge?igsh=bmF1M2lwa3Vqa2ow"
+                                        target="_blank">
                                         <i aria-hidden="true" class="fab fa-instagram"></i>
                                         <span> Instagram </span>
                                     </a>
@@ -443,7 +457,8 @@
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://linkedin.com" target="_blank">
+                                        href="https://www.linkedin.com/in/nothingedge-technology-29261b2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank">
                                         <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                         <span> LinkedIn </span>
                                     </a>
@@ -458,7 +473,7 @@
     </section>
 
     <!-- Onovo Brands -->
-    <section class="onovo-section gap-top-140">
+    {{-- <section class="onovo-section gap-top-140">
         <div class="container">
 
             <!-- Heading -->
@@ -581,5 +596,5 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 @endsection

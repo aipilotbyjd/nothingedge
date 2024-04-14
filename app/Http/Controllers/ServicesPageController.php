@@ -10,4 +10,9 @@ class ServicesPageController extends Controller
     {
         return view("pages.services.index");
     }
+
+    public function WebDevelopmentServicesDetails()
+    {
+        return view("pages.services.service-detail");
+    }
 }

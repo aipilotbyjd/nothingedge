@@ -5,21 +5,21 @@
     <section class="onovo-section onovo-intro intro--black">
         <div class="container">
             <h1 class="onovo-title-1  onovo-text-white">
-                <span> Machine Learning / AI </span>
+                <span> Web Development </span>
                 <span class="onovo-sep word">
                     <i class="sep-img" style="background-image: url(assets/images/title_icon.svg);"></i>
                 </span>
             </h1>
             <div class="onovo-subtitle-2  onovo-text-white">
-                <span> Our values and vaulted us to the top of our industry. </span>
+                <span> Intended To Interact, Developed To Succeed. </span>
             </div>
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="{{ route('home') }}">Home </a>
                     </li>
                     <li class="current">
-                        <a href="services.html">Services </a>
+                        <a href="{{ route('services') }}">Services </a>
                     </li>
                 </ul>
             </div>
@@ -34,26 +34,27 @@
 
                     <!-- Image -->
                     <div class="gap-bottom-50">
-                        <img src="assets/images/post2.jpg" alt="" />
+                        <img src="{{ asset('assets/images/post1.jpg') }}" alt="img" />
                     </div>
 
                     <!-- Description -->
                     <div class="onovo-text">
-                        <h3>Behind the Branding of High Calgary’s Community</h3>
-                        <p>Our knowledgeable cost management experts understand the importance of delivering a project to
-                            meet your expectations in terms of cost, time, and quality. We will work with you to find the
-                            right, flexible and valuable solutions. No matter what sector you operate in, or the <b>scale of
-                                your project</b>, our team have the experience and know-how to support you with your goals.
+                        <h3>Custom Web App Development</h3>
+                        <p>Our web app developers are experts at understanding unique business app requirements and building
+                            custom websites that match client and customer interests. Our top web app development company
+                            uses powerful tech to integrate a data-rich front and back-end solution.
                         </p>
-                        <p>In addition to construction consultancy services <b>Bureau Veritas is a global leader in
-                                testing</b>, inspection and certification (TIC) and we have more than 190+ years of
-                            experience meaning that we also can assist you in other areas of your business if needed. </p>
-                        <p><br></p>
-                        <h3>Solving Business Problems</h3>
+                    </div>
+                    <div class="onovo-text">
+                        <h3>Content Management Systems (CMS)</h3>
+                        <p>We offer expertise in developing and customizing content management systems such as WordPress,
+                            Drupal, and Joomla. Whether you need a simple blogging platform or a complex enterprise-level
+                            CMS, we can tailor a solution to meet your content management needs.
+                        </p>
                     </div>
 
                     <!-- Faq items -->
-                    <div class="onovo-faq-items">
+                    {{-- <div class="onovo-faq-items">
 
                         <!--faq item-->
                         <div class="onovo-faq-item onovo-collapse-item">
@@ -143,23 +144,22 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> --}}
 
                     <div class="onovo-text gap-top-50">
                         <h3>Highest Expectations</h3>
-                        <p>We successfully cope with tasks of varying complexity, provide longterm guarantees and regularly
-                            master new technologies. Our portfolio includes <span style="text-decoration: underline;">dozens
-                                of successfully</span> completed projects of houses of different stores, with high–quality
-                            finishes and good repairs. </p>
+                        <p>For over a decade, we've created epic visual masterpieces - from stunning animations to seamless
+                            navigation, we've got it all. Then, we move towards executing a product for the world to enjoy!
+                        </p>
                         <ul>
                             <li>
-                                Better defined projects, reducing risk.
+                                Over a decade of experience in creating epic visual masterpieces..
                             </li>
                             <li>
-                                We provide legislative compliance.
+                                Over a decade of experience in creating epic visual masterpieces..
                             </li>
                             <li>
-                                Cost savings by getting expert advice.
+                                Commitment to executing products that the world can enjoy.
                             </li>
                             <li>
                                 Realistic pricing and project timescales.
@@ -179,53 +179,38 @@
                             <div class="list">
                                 <ul>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Brand Strategy </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> PHP Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Visual Identity </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> Laravel Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Naming </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> CodeIgniter Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Toolkits </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> NodeJS Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Guidelines </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> ReactJS Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Creative Strategy </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> Wordprees/Shopify Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Creative Direction </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Concepts </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Copywriting </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="onovo-lnk" href="service-detail.html">
-                                            <span data-splitting data-onovo-scroll> Social Media </span>
+                                        <a class="onovo-lnk" href="#">
+                                            <span data-splitting data-onovo-scroll> Ecommerce Development </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -237,7 +222,8 @@
                     <div class="onovo-form-box onovo-text-white">
                         <h5>Send Us A Message</h5>
                         <p>Feel some love, to see what we can do...t!</p>
-                        <form id="cform" class="cform" method="post">
+                        <form id="cform" class="cform" method="post" action="{{ route('contactUs.form') }}">
+                            @csrf
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <p>
@@ -282,15 +268,15 @@
             <!-- Navigation -->
             <div class="onovo-page-navigation">
                 <div class="onovo-page-navigation-content">
-                    <a href="service-detail.html" class="page-navigation__prev">
+                    <a href="{{ route('web-development-services-detail') }}" class="page-navigation__prev">
                         <span class="onovo-prev onovo-hover-2">
                             <i></i>
                         </span>
                     </a>
-                    <a href="services.html" class="page-navigation__posts">
+                    <a href="{{ route('services') }}" class="page-navigation__posts">
                         <i class="fas fa-th"></i>
                     </a>
-                    <a href="service-detail.html" class="page-navigation__next">
+                    <a href="{{ route('web-development-services-detail') }}" class="page-navigation__next">
                         <span class="onovo-next onovo-hover-2">
                             <i></i>
                         </span>
@@ -300,4 +286,52 @@
 
         </div>
     </section>
+@endsection
+@section('script')
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#cform').validate({
+                rules: {
+                    name: {
+                        required: true,
+                        maxlength: 50
+                    },
+                    email: {
+                        required: true,
+                        email: true,
+                        maxlength: 50
+                    },
+                    tel: {
+                        required: true
+                    }
+                },
+                s: {
+                    name: 'Please enter your full name',
+                    email: {
+                        required: 'Please enter your email address',
+                        email: 'Please enter a valid email address'
+                    },
+                    tel: 'Please enter your phone number',
+                },
+                submitHandler: function(form) {
+                    var formData = $(form).serialize();
+                    $.ajax({
+                        url: $(form).attr('action'),
+                        type: $(form).attr('method'),
+                        data: formData,
+                        success: function(response) {
+                            $(form).hide();
+                            $('.alert-success').show();
+                        },
+                        error: function(xhr, status, error) {
+                            alert(
+                                'An error occurred while processing your request. Please try again later.'
+                            );
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 @endsection

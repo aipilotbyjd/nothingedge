@@ -11,12 +11,12 @@
                 </span>
             </h1>
             <div class="onovo-subtitle-2  onovo-text-white">
-                <span> Creative studio at the intersection of art, designand technology. </span>
+                <span>Welcome to Nothingedge Technology, your trusted partner in software development solutions. </span>
             </div>
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="{{ route('home') }}">Home </a>
                     </li>
                     <li class="current">
                         <span>About Us</span>
@@ -35,10 +35,11 @@
                     <!-- Heading -->
                     <div class="onovo-heading gap-bottom-60">
                         <div class="onovo-subtitle-1">
-                            <span> Welcome to Onovo </span>
+                            <span> Welcome to About us </span>
                         </div>
-                        <h2 class="onovo-title-2">
-                            <span> We are a digital agency, <br>passionate about building <br>and designing brands </span>
+                        <h2 class="onovo-title-3">
+                            <span>Welcome to Nothingedge Technology, your trusted partner in software development solutions
+                            </span>
                         </h2>
                         <div class="onovo-text">
                             <p>From the moment our company was founded, we have helped our clients find <strong>exceptional
@@ -62,7 +63,7 @@
                 <!--number-item-->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="onovo-counter">
-                        <div class="num onovo-text-white js-counter" data-end-value="23">0</div>
+                        <div class="num onovo-text-white js-counter" data-end-value="10">0</div>
                         <div class="num-after onovo-text-white"> + </div>
                         <div class="label"> Team members </div>
                     </div>
@@ -71,7 +72,7 @@
                 <!--number-item-->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="onovo-counter">
-                        <div class="num onovo-text-white js-counter" data-end-value="99">0</div>
+                        <div class="num onovo-text-white js-counter" data-end-value="10">0</div>
                         <div class="num-after onovo-text-white"> + </div>
                         <div class="label"> Completed projects </div>
                     </div>
@@ -106,9 +107,10 @@
                     <h5 class="text-uppercase">Our Mission</h5>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-                    From the moment our company was founded, we have helped our clients find exceptional solutions for their
-                    businesses , creating memorable brands and digital products. Our expertise grows with each year, and our
-                    accumulated experience.
+                    We believe that technology has the power to revolutionize businesses, and we are committed to harnessing
+                    this power to propel our clients to new heights of success. Through our innovative software solutions,
+                    we enable businesses to streamline their operations, optimize their processes, and unlock their full
+                    potential.
                 </div>
             </div>
 
@@ -118,21 +120,23 @@
                     <h5 class="text-uppercase">Our Goal</h5>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-                    Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands,
-                    tech, entertainment, arts &amp; culture.
+                    At Nothingedge Technology, our goal is to become a trusted partner for businesses seeking reliable and
+                    innovative software solutions. We are committed to delivering exceptional value to our clients through
+                    our expertise, professionalism, and dedication to excellence. Our goal is to exceed our clients'
+                    expectations and establish long-term relationships built on trust, integrity, and mutual success.
                 </div>
             </div>
 
             <!-- Gallery -->
             <div class="row gap-top-100">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <a href="assets/images/posts1.jpg" class="mfp-image">
-                        <img src="assets/images/posts1-1024x683.jpg" alt="" />
+                    <a href="{{ asset('assets/images/posts1.jpg') }}" class="mfp-image">
+                        <img src="{{ asset('assets/images/posts1.jpg') }}" alt="" />
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 gap-top-60">
-                    <a href="assets/images/posts2.jpg" class="mfp-image">
-                        <img src="assets/images/posts2-1024x683.jpg" alt="" />
+                    <a href="{{ asset('assets/images/posts2.jpg') }}" class="mfp-image">
+                        <img src="{{ asset('assets/images/posts2.jpg') }}" alt="" />
                     </a>
                 </div>
             </div>
@@ -162,7 +166,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon4.png" alt="Brand Strategy" />
+                                <img src="{{ asset('assets/images/serv-icon4.png') }}" alt="Web Development" />
                             </a>
                         </div>
                         <div class="num">
@@ -170,12 +174,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Brand Strategy </span>
+                                <span> Web Development </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>We offer custom web application development that fits customer requirements. Our service
+                                    includes the full life cycle of software development life cycle.
                                 </p>
                             </div>
                         </div>
@@ -187,7 +192,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon6.png" alt="Visual Identity" />
+                                <img src="{{ asset('assets/images/serv-icon6.png') }}" alt="Mobile Development" />
                             </a>
                         </div>
                         <div class="num">
@@ -195,12 +200,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Visual Identity </span>
+                                <span>Mobile Development </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>Smartphone application is better than a mobile website, So we also offer mobile
+                                    application development for customer business needs.
                                 </p>
                             </div>
                         </div>
@@ -212,7 +218,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon1.png" alt="Copywriting" />
+                                <img src="{{ asset('assets/images/serv-icon1.png') }}" alt="UI/UX Design" />
                             </a>
                         </div>
                         <div class="num">
@@ -220,12 +226,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Copywriting </span>
+                                <span> UI/UX Design </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>We offer UI/UX design service that meets smooth user experience in customer's
+                                    application, which is the most important part of the application.
                                 </p>
                             </div>
                         </div>
@@ -237,7 +244,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon5.png" alt="Creative Strategy" />
+                                <img src="{{ asset('assets/images/serv-icon5.png') }}" alt="E-commerce" />
                             </a>
                         </div>
                         <div class="num">
@@ -245,12 +252,13 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Creative Strategy </span>
+                                <span> E-commerce </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>We design with the user in mind, We develop with experiences to up your business grind.
+                                    Responsive, Fast Loading and Fraud-proof are the pillars of our E-commerce Expertise.
                                 </p>
                             </div>
                         </div>
@@ -262,7 +270,7 @@
                     <div class="onovo-service-item-list-inner">
                         <div class="image onovo-hover-1">
                             <a href="service-detail.html">
-                                <img src="assets/images/serv-icon3.png" alt="Native &amp; Web Apps" />
+                                <img src="{{ asset('assets/images/serv-icon3.png') }}" alt="Branding" />
                             </a>
                         </div>
                         <div class="num">
@@ -270,12 +278,14 @@
                         </div>
                         <h5 class="title">
                             <a href="service-detail.html">
-                                <span> Native &amp; Web Apps </span>
+                                <span> Branding </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores.
+                                <p>Brand consistency across all touchpoints, creating a unified brand-user experience and
+                                    branding components into your product’s visual design and language that create a
+                                    delightful experience.
                                 </p>
                             </div>
                         </div>
@@ -287,45 +297,6 @@
         </div>
     </section>
 
-    <!-- Onovo Awards -->
-    <section class="onovo-section gap-bottom-140">
-        <div class="container">
-
-            <!-- Heading -->
-            <div class="onovo-heading">
-                <h5 class="onovo-subtitle-1">
-                    <span> Awards </span>
-                </h5>
-            </div>
-
-            <!-- Awards items -->
-            <div class="row gap-row">
-
-                <!--awards-item-->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <p><img src="assets/images/award1.png" alt="" /></p>
-                    <h5 class="onovo-title-1">31</h5>
-                    7 SOTD <br> 17 HONORABLE MENTION <br> 3 MOBILE EXCELLENCE
-                </div>
-
-                <!--awards-item-->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <p><img src="assets/images/award2.png" alt="" /></p>
-                    <h5 class="onovo-title-1">16</h5>
-                    11 SOTD <br> 5 SPECIAL KUDOS
-                </div>
-
-                <!--awards-item-->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <p><img src="assets/images/award3.png" alt="" /></p>
-                    <h5 class="onovo-title-1">20</h5>
-                    AWARD 2019 <br> 1 GLOBAL COMPETITION
-                </div>
-
-            </div>
-
-        </div>
-    </section>
 
     <!-- Onovo History -->
     <section class="onovo-section onovo-section-bg gap-top-140 gap-bottom-140">
@@ -347,7 +318,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 align-right hide-on-mobile">
 
                     <!-- Button -->
-                    <a class="onovo-btn onovo-hover-btn" href="about-us.html">
+                    <a class="onovo-btn onovo-hover-btn" href="{{ route('about-us') }}">
                         <i class="arrow">
                             <span></span>
                         </i>
@@ -369,83 +340,18 @@
                                     data-onovo-overlay></div>
                                 <div class="desc">
                                     <div class="subtitle onovo-text-white">
-                                        <div data-splitting> 1998 </div>
-                                    </div>
-                                    <h5 class="title">
-                                        <span data-splitting> With a Passion for Creation Brands </span>
-                                    </h5>
-                                    <div class="text">
-                                        <div data-splitting>
-                                            <p>The creative agency studio was founded in 1998 by a group of graphic
-                                                designers with a passion for creating bold, innovative designs that push
-                                                boundaries.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--slide-->
-                        <div class="swiper-slide" data-swiper-autoplay>
-                            <div class="onovo-history-item">
-                                <div class="image" style="background-image: url(assets/images/post1-1000x667.jpg);"
-                                    data-onovo-overlay></div>
-                                <div class="desc">
-                                    <div class="subtitle onovo-text-white">
-                                        <div data-splitting> 2004 </div>
+                                        <div data-splitting> 2023 </div>
                                     </div>
                                     <h5 class="title">
                                         <span data-splitting> Small Startups to Large Corporations </span>
                                     </h5>
                                     <div class="text">
                                         <div data-splitting>
-                                            <p>Over the years, the studio has worked with a diverse range of clients, from
-                                                small startups to large multinational corporations, always striving to
-                                                deliver unique and impactful design solutions.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--slide-->
-                        <div class="swiper-slide" data-swiper-autoplay>
-                            <div class="onovo-history-item">
-                                <div class="image" style="background-image: url(assets/images/post1-1000x667.jpg);"
-                                    data-onovo-overlay></div>
-                                <div class="desc">
-                                    <div class="subtitle onovo-text-white">
-                                        <div data-splitting> 2011 </div>
-                                    </div>
-                                    <h5 class="title">
-                                        <span data-splitting> Branding for a Diverse of Clients </span>
-                                    </h5>
-                                    <div class="text">
-                                        <div data-splitting> Over the years, the studio has grown and expanded, moving to a
-                                            larger space and adding new team members with expertise in web development,
-                                            social media, and digital marketing. </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--slide-->
-                        <div class="swiper-slide" data-swiper-autoplay>
-                            <div class="onovo-history-item">
-                                <div class="image" style="background-image: url(assets/images/post1-1000x667.jpg);"
-                                    data-onovo-overlay></div>
-                                <div class="desc">
-                                    <div class="subtitle onovo-text-white">
-                                        <div data-splitting> 2015 </div>
-                                    </div>
-                                    <h5 class="title">
-                                        <span data-splitting> Most Trusted &amp; Respected Digital Agency </span>
-                                    </h5>
-                                    <div class="text">
-                                        <div data-splitting>
-                                            <p>Along the way, the team has won numerous awards and accolades for their work,
-                                                cementing their reputation as one of the most trusted and respected creative
-                                                agencies in the industry.</p>
+                                            <p>Nothingedge Technology began its journey in 2023 with a vision to
+                                                revolutionize the digital landscape through innovation and transformative
+                                                solutions. From our humble beginnings, we embarked on a mission to empower
+                                                brands and businesses by leveraging cutting-edge technologies and pioneering
+                                                strategies.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -465,8 +371,11 @@
                                         <span data-splitting> Continues to Push Boundaries &amp; Inspire </span>
                                     </h5>
                                     <div class="text">
-                                        <div data-splitting> Today, the studio continues to push boundaries and inspire
-                                            clients with its creative vision and dedication to excellence. </div>
+                                        <div data-splitting>
+                                            <p> Today, Nothingedge Technology is at the forefront of digital
+                                                evolution, driving innovation and shaping the future with unparalleled
+                                                creativity and expertise.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -516,9 +425,10 @@
                         <div class="onovo-subtitle-1">
                             <span> Meet Our Company Family </span>
                         </div>
-                        <h2 class="onovo-title-2">
-                            <span> Our Team is The Difference. <br>Our Chemistry is The Spark. </span>
-                        </h2>
+                        <h4 class="title">
+                            <span> Raw, Real & Rockstars of our techno-creative clubhouse. Trust us, they legit made
+                                clubbing legal with NothingEdge Technology. </span>
+                        </h4>
                     </div>
                 </div>
 
@@ -531,18 +441,18 @@
                         <div class="onovo-team-two-item">
                             <div class="image onovo-hover-3 onovo-hover-black-30" data-onovo-overlay data-onovo-scroll>
                                 <a href="team-detail.html">
-                                    <img src="assets/images/team-2-1000x1357.jpg" alt="Thomas Jackki" />
+                                    <img src="{{ asset('assets/images/tejas.jpg') }}" alt="Tejas Korat" />
                                 </a>
                                 <div class="onovo-social-2">
                                     <ul>
                                         <li>
-                                            <a class="onovo-social-link onovo-hover-2" href="facebook.com"
+                                            <a class="onovo-social-link onovo-hover-2" href="https://www.facebook.com/korat.tejas?mibextid=ZbWKwL"
                                                 title="Facebook" target="_blank">
                                                 <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="onovo-social-link onovo-hover-2" href="linkedin.com"
+                                            <a class="onovo-social-link onovo-hover-2" href="https://www.linkedin.com/in/tejas-korat-113430187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                                 title="LinkedIn" target="_blank">
                                                 <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                             </a>
@@ -553,11 +463,11 @@
                             <div class="desc">
                                 <h5 class="title">
                                     <a href="team-detail.html" class="onovo-lnk">
-                                        <span data-splitting data-onovo-scroll> Thomas Jackki </span>
+                                        <span data-splitting data-onovo-scroll> Tejas Korat </span>
                                     </a>
                                 </h5>
                                 <div class="onovo-subtitle-1">
-                                    <span data-splitting data-onovo-scroll> UI &amp; UX Designer </span>
+                                    <span data-splitting data-onovo-scroll> Chief Executive Officer </span>
                                 </div>
                             </div>
                         </div>
@@ -570,7 +480,7 @@
                         <div class="onovo-team-two-item">
                             <div class="image onovo-hover-3 onovo-hover-black-30" data-onovo-overlay data-onovo-scroll>
                                 <a href="team-detail.html">
-                                    <img src="assets/images/team-6-1000x1357.jpg" alt="Melanie Robinson" />
+                                    <img src="assets/images/team-1-1000x1357.jpg" alt="Jaydeep Dhrangiya" />
                                 </a>
                                 <div class="onovo-social-2">
                                     <ul>
@@ -592,18 +502,18 @@
                             <div class="desc">
                                 <h5 class="title">
                                     <a href="team-detail.html" class="onovo-lnk">
-                                        <span data-splitting data-onovo-scroll> Melanie Robinson </span>
+                                        <span data-splitting data-onovo-scroll> Jaydeep Dhrangiya </span>
                                     </a>
                                 </h5>
                                 <div class="onovo-subtitle-1">
-                                    <span data-splitting data-onovo-scroll> Seo &amp; Marketing </span>
+                                    <span data-splitting data-onovo-scroll> Chief Executive Officer </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!--team item-->
+                {{-- <!--team item-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
                     <div class="onovo-team-two">
                         <div class="onovo-team-two-item">
@@ -727,7 +637,7 @@
                             <span></span>
                         </i>
                     </a>
-                </div>
+                </div> --}}
 
             </div>
 

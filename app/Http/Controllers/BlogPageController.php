@@ -10,4 +10,14 @@ class BlogPageController extends Controller
     {
         return view('pages.blog.index');
     }
+
+    public function BlogDetails()
+    {
+        return view('pages.blog.blog-detail');
+    }
+
+    public function WhatAreDesignPatterns()
+    {
+        return view('pages.blog.what-are-design-patterns');
+    }
 }

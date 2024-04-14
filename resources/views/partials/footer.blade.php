@@ -36,8 +36,8 @@
                         <!--gallery item-->
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
-                                <a href='assets/images/post5.jpg'>
-                                    <img src="{{ asset('public/assets/images/post5-1024x683.jpg') }}" alt="" />
+                                <a href='{{ asset('assets/images/post5.jpg') }} '>
+                                    <img src="{{ asset('assets/images/post5.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>
@@ -45,8 +45,8 @@
                         <!--gallery item-->
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
-                                <a href='assets/images/post4.jpg'>
-                                    <img src="assets/images/post4-1024x683.jpg" alt="" />
+                                <a href='{{ asset('assets/images/post4.jpg') }}'>
+                                    <img src="{{ asset('assets/images/post4.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>
@@ -54,8 +54,8 @@
                         <!--gallery item-->
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
-                                <a href='assets/images/post3.jpg'>
-                                    <img src="assets/images/post3-1024x683.jpg" alt="" />
+                                <a href='{{ asset('assets/images/post3.jpg') }}'>
+                                    <img src="{{ asset('assets/images/post3.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>
@@ -63,8 +63,8 @@
                         <!--gallery item-->
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
-                                <a href='assets/images/post4.jpg'>
-                                    <img src="assets/images/post4-1024x683.jpg" alt="" />
+                                <a href='{{ asset('assets/images/post4.jpg') }}'>
+                                    <img src="{{ asset('assets/images/post4.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>
@@ -72,8 +72,8 @@
                         <!--gallery item-->
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
-                                <a href='assets/images/post1.jpg'>
-                                    <img src="assets/images/post1-1024x683.jpg" alt="" />
+                                <a href='{{ asset('assets/images/post1.jpg') }}'>
+                                    <img src="{{ asset('assets/images/post1.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>
@@ -81,8 +81,8 @@
                         <!--gallery item-->
                         <div class="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                             <figure class="gallery-item">
-                                <a href='assets/images/post6.jpg'>
-                                    <img src="assets/images/post6-1024x683.jpg" alt="" />
+                                <a href='{{ asset('assets/images/post6.jpg') }}'>
+                                    <img src="{{ asset('assets/images/post6.jpg') }}" alt="" />
                                 </a>
                             </figure>
                         </div>

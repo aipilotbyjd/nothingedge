@@ -25,6 +25,12 @@ Route::get('/contact-us', [ContactUsPageController::class, 'index'])->name('cont
 Route::post('/contact-us-form', [ContactUsPageController::class, 'ContactUsForm'])->name('contactUs.form');
 Route::get('/about-us', [AboutUsPageController::class, 'index'])->name('about-us');
 Route::get('/services', [ServicesPageController::class, 'index'])->name('services');
+Route::get('/web-development-services-detail', [ServicesPageController::class, 'WebDevelopmentServicesDetails'])->name('web-development-services-detail');
 Route::get('/team', [TeamPageController::class, 'index'])->name('team');
-Route::get('/blog', [BlogPageController::class, 'index'])->name('blog');
+Route::prefix('blog')->group(function () {
+    Route::get('/', [BlogPageController::class, 'index'])->name('blog');
+    // Route::get('details', [BlogPageController::class, 'BlogDetails'])->name('blog-details');
+});
+Route::get('blog-details', [BlogPageController::class, 'BlogDetails'])->name('blog-details');
+Route::get('what-are-design-patterns', [BlogPageController::class, 'WhatAreDesignPatterns'])->name('what-are-design-patterns');
 Route::get('/projects', [ProjectsPageController::class, 'index'])->name('projects');

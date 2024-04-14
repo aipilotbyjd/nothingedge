@@ -6,6 +6,8 @@
         <div class="image">
             <video autoplay muted loop playsinline id="heroVideo">
                 <source src="assets/images/stvideo.mp4" type="video/mp4">
+                    {{-- <source src="{{asset('assets/images/vecteezy_business-documents-auditor-businesswoman-checking-searching_23271982.mp4')}}" type="video/mp4"> --}}
+
             </video>
             <div class="ovrl" style="opacity: 0.25;"></div>
         </div>
@@ -45,19 +47,20 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                     <div class="onovo-service-grid-item onovo-hover-1">
                         <div class="image">
-                            <a href="services.html">
+                            <a href="{{ route('services') }}">
                                 <img decoding="async" src="{{ asset('assets/images/serv-icon1.png') }}" alt="Creation" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
-                            <a href="services.html">
-                                <span> Creation </span>
+                            <a href="{{ route('services') }}">
+                                <span> Web Development </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Developing websites is about so much more than marketing. It’s also about
-                                    aesthetics.</p>
+                                <p>For over a decade, we've created epic visual masterpieces - from stunning animations to
+                                    seamless navigation, we've got it all. Then, we move towards executing a product for the
+                                    world to enjoy!.</p>
                             </div>
                         </div>
                         <div class="onovo-bubble">
@@ -73,18 +76,19 @@
                     <div class="onovo-service-grid-item onovo-hover-1 active active--default">
                         <div class="image">
                             <a href="projects.html">
-                                <img decoding="async" src="assets/images/serv-icon2.png" alt="Websites" />
+                                <img decoding="async" src="{{ asset('assets/images/serv-icon2.png') }}" alt="Websites" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
                             <a href="projects.html">
-                                <span> Websites </span>
+                                <span> Mobile Development </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Developing websites is about so much more than marketing. It’s also about
-                                    aesthetics.</p>
+                                <p>Innovating experiences & leading ahead in this mobile-first world! We scale the digital
+                                    maturity curve by delivering high-end, fully-fledged, integrated, transformative &
+                                    top-grade Mobile App Development Services.</p>
                             </div>
                         </div>
                         <div class="onovo-bubble">
@@ -100,18 +104,19 @@
                     <div class="onovo-service-grid-item onovo-hover-1">
                         <div class="image">
                             <a href="about-us.html">
-                                <img decoding="async" src="assets/images/serv-icon3.png" alt="Studio" />
+                                <img decoding="async" src="{{ asset('assets/images/serv-icon3.png') }}" alt="Studio" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
                             <a href="about-us.html">
-                                <span> Studio </span>
+                                <span> UI/UX Design And Ecommerce </span>
                             </a>
                         </h5>
                         <div class="onovo-text">
                             <div>
-                                <p>Developing websites is about so much more than marketing. It’s also about
-                                    aesthetics.</p>
+                                <p>Our Approach to UX is centered on a deep and detailed time-tested process. We define the
+                                    persona and experience as per your expectations and establish a digital product platform
+                                    that can be prototyped, tested, and developed.</p>
                             </div>
                         </div>
                         <div class="onovo-bubble">
@@ -139,10 +144,12 @@
                             <!-- Heading -->
                             <div class="onovo-heading gap-bottom-40">
                                 <div class="onovo-subtitle-1">
-                                    <span> Welcome to Onovo </span>
+                                    <span> Welcome to About us </span>
                                 </div>
-                                <h2 class="onovo-title-2">
-                                    <span> A Design Agency <br>Delivering Success by <br>Winning Hearts </span>
+                                <h2 class="onovo-title-3">
+                                    <span> Welcome to Nothingedge Technology, your trusted partner in software development
+                                        solutions.
+                                    </span>
                                 </h2>
                             </div>
 
@@ -165,17 +172,20 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <h5 class="text-uppercase">Our Mission</h5>
-                            <p>From the moment our company was founded we have helped our clients find
-                                <strong>exceptional solutions for their businesses</strong> memorable brands and
-                                digital products. Our expertise grows with each year, and our accumulated
-                                experience.
+                            <p>We believe that technology has the power to revolutionize businesses, and we are committed to
+                                harnessing this power to propel our clients to new heights of success. Through our
+                                innovative software solutions, we enable businesses to streamline their operations, optimize
+                                their processes, and unlock their full potential.
                             </p>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <h5 class="text-uppercase">Our Goal</h5>
-                            <p>Our goal is to deliver amazing experiences that make people talk, and build
-                                strategic value for brands, tech, entertainment.</p>
-                            <a class="onovo-btn onovo-hover-btn" href="about-us.html">
+                            <p>At Nothingedge Technology, our goal is to become a trusted partner for businesses seeking
+                                reliable and innovative software solutions. We are committed to delivering exceptional value
+                                to our clients through our expertise, professionalism, and dedication to excellence. Our
+                                goal is to exceed our clients' expectations and establish long-term relationships built on
+                                trust, integrity, and mutual success.</p>
+                            <a class="onovo-btn onovo-hover-btn" href="{{ route('about-us') }}">
                                 <i class="arrow"><span></span></i>
                                 <span> More About Us </span>
                             </a>
@@ -188,9 +198,9 @@
                     <!-- Number -->
                     <div class="onovo-number onovo-circle-text mrg-right">
                         <div class="num onovo-text-white">
-                            <span> 14 </span>
+                            <span> 2+ </span>
                         </div>
-                        <div class="label onovo-text-black onovo-circle-text-label"> Years of Digital Solutions
+                        <div class="label onovo-text-black onovo-circle-text-label"> Years of Di gital Solutions
                             Experience </div>
                     </div>
 
@@ -211,7 +221,7 @@
                     <div class="swiper-slide">
                         <h5 class="title onovo-text-white">
                             <a href="service-detail.html">
-                                <span> - Brand Strategy </span>
+                                <span> - Web Development </span>
                             </a>
                         </h5>
                     </div>
@@ -220,7 +230,7 @@
                     <div class="swiper-slide">
                         <h5 class="title onovo-text-white">
                             <a href="service-detail.html">
-                                <span> - Creative Direction </span>
+                                <span> - Mobile Development </span>
                             </a>
                         </h5>
                     </div>
@@ -229,19 +239,11 @@
                     <div class="swiper-slide">
                         <h5 class="title onovo-text-white">
                             <a href="service-detail.html">
-                                <span> - Native and Web Apps </span>
+                                <span> - UI/UX Design </span>
                             </a>
                         </h5>
                     </div>
 
-                    <!--slide-->
-                    <div class="swiper-slide">
-                        <h5 class="title onovo-text-white">
-                            <a href="service-detail.html">
-                                <span> - Machine Learning / AI </span>
-                            </a>
-                        </h5>
-                    </div>
 
                 </div>
             </div>
@@ -259,7 +261,7 @@
                     <span> Featured Projects </span>
                 </div>
                 <h2 class="onovo-title-2">
-                    <span> Studio Showcase </span>
+                    <span> Development Expertise </span>
                 </h2>
             </div>
 
@@ -275,13 +277,15 @@
                         <div class="category">
                             <a href="project-detail.html">
                                 <span data-splitting data-onovo-scroll>
-                                    <span>Branding</span>
+                                    <span>Web Development</span>
                                 </span>
                             </a>
                         </div>
                         <h3 class="title">
                             <a href="project-detail.html">
-                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Museums Art Concept
+                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Explore our showcase website,
+                                    highlighting our proficiency in web development through sleek design and seamless
+                                    functionality.
                                 </span>
                             </a>
                         </h3>
@@ -296,7 +300,7 @@
                         <div class="category">
                             <a href="project-detail.html">
                                 <span data-splitting data-onovo-scroll>
-                                    <span>Marketing</span>
+                                    <span>App Development</span>
                                 </span>
                             </a>
                         </div>
@@ -379,7 +383,7 @@
             </div>
 
             <!-- Button -->
-            <a class="onovo-btn onovo-hover-btn" href="projects.html">
+            <a class="onovo-btn onovo-hover-btn" href="{{ route('projects') }}">
                 <i class="arrow">
                     <span></span>
                 </i>
@@ -626,10 +630,12 @@
                                     <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
                                         <div class="text">
                                             <div data-splitting>
-                                                <p>“ Their high level of customer service <br />complemented
-                                                    their technical expertise. <br />They were responsive,
-                                                    supportive, and <br />communicative. Their dedication to
-                                                    <br />the project was impressive. ”
+                                                <p>“Working with Nothingedge Technology has been a game-changer for our
+                                                    business. Their team's expertise and dedication to excellence have
+                                                    helped us develop innovative software solutions that have significantly
+                                                    improved our efficiency and productivity. I highly recommend Nothingedge
+                                                    Technology to any business looking for top-notch software development
+                                                    services.”
                                                 </p>
                                             </div>
                                         </div>
@@ -750,7 +756,8 @@
                 <!--number item-->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
                     <div class="onovo-counter">
-                        <div class="num onovo-text-white js-counter" data-end-value="23">0</div>
+                        <div class="num onovo-text-white js-counter" data-end-value="10">0</div>
+                        <div class="num-after onovo-text-white"> + </div>
                         <div class="label"> Team members </div>
                     </div>
                 </div>
@@ -758,7 +765,7 @@
                 <!--number item-->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
                     <div class="onovo-counter">
-                        <div class="num onovo-text-white js-counter" data-end-value="99">0</div>
+                        <div class="num onovo-text-white js-counter" data-end-value="10">0</div>
                         <div class="num-after onovo-text-white"> + </div>
                         <div class="label"> Completed projects </div>
                     </div>
@@ -799,8 +806,9 @@
 
                     <!-- Text -->
                     <div class="onovo-cta-text">
-                        <a href="mailto:infoname@domain.com" target="_blank">infoname@domain.com</a>
-                        <p>36 East 8th Street, New York, <br />NY 10003, United States. </p>
+                        <a href="mailto:contact@nothingedge.com" target="_blank">contact@nothingedge.com</a>
+                        <p>111, Sankalp Icon, Police station, Main Rd,
+                            opp. Parikh Hospital Nikol, Ahmedabad, Gujarat 382350.</p>
                     </div>
 
                 </div>
@@ -817,14 +825,16 @@
                             <ul>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://facebook.com" target="_blank">
+                                        href="https://www.facebook.com/nothingedge.technology?mibextid=ZbWKwL"
+                                        target="_blank">
                                         <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                         <span> Facebook </span>
                                     </a>
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://instagram.com" target="_blank">
+                                        href="https://www.instagram.com/nothingedge?igsh=bmF1M2lwa3Vqa2ow"
+                                        target="_blank">
                                         <i aria-hidden="true" class="fab fa-instagram"></i>
                                         <span> Instagram </span>
                                     </a>
@@ -838,7 +848,8 @@
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://linkedin.com" target="_blank">
+                                        href="https://www.linkedin.com/in/nothingedge-technology-29261b2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank">
                                         <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                         <span> LinkedIn </span>
                                     </a>
@@ -873,25 +884,27 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-blog-item">
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.html">
-                                <img decoding="async" src="assets/images/posts3-1000x667.jpg" width="400"
-                                    height="240" alt="Usability Secrets to Create Interfaces" />
+                            <a href="{{ route('what-are-design-patterns') }}">
+                                <img decoding="async" src="{{ asset('assets/images/post1.jpg') }}" width="400"
+                                    height="240" alt="What are Design Patterns and why you should know them?" />
                             </a>
                         </div>
                         <div class="desc">
                             <div class="info">
-                                <div class="date">March 25, 2023</div>Branding
+                                <div class="date">March 25, 2023</div>Design
                             </div>
                             <h5 class="title">
-                                <a href="blog-detail.html">
-                                    <span>Usability Secrets to Create Interfaces</span>
+                                <a href="{{ route('what-are-design-patterns') }}">
+                                    <span>What are Design Patterns and why you should know them?</span>
                                 </a>
                             </h5>
                             <div class="onovo-text">
                                 <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most
-                                        innovative and successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.html" class="onovo-btn onovo-hover-btn">
+                                    <p>Design patterns are essential tools in the arsenal of any software developer. They
+                                        represent proven solutions to common problems encountered during software design and
+                                        development. &#8230; <br />
+                                        <a href="{{ route('what-are-design-patterns') }}"
+                                            class="onovo-btn onovo-hover-btn">
                                             <span>Read more</span>
                                         </a>
                                     </p>
@@ -969,7 +982,7 @@
 
             <!-- Button -->
             <div class="align-center">
-                <a class="onovo-btn onovo-hover-btn" href="blog.html">
+                <a class="onovo-btn onovo-hover-btn" href="{{ route('blog') }}">
                     <i class="arrow">
                         <span></span>
                     </i>
