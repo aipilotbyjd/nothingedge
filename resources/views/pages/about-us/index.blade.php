@@ -145,157 +145,7 @@
     </section>
 
     <!-- Onovo Services -->
-    <section class="onovo-section gap-bottom-140">
-        <div class="container">
-
-            <!-- Heading -->
-            <div class="onovo-heading gap-bottom-40">
-                <div class="onovo-subtitle-1">
-                    <span> What we do </span>
-                </div>
-                <h2 class="onovo-title-2">
-                    <span> We’re a full-service agency </span>
-                </h2>
-            </div>
-
-            <!-- Services items -->
-            <div class="onovo-services-list">
-
-                <!--service-item-->
-                <div class="onovo-service-item-list">
-                    <div class="onovo-service-item-list-inner">
-                        <div class="image onovo-hover-1">
-                            <a href="service-detail.html">
-                                <img src="{{ asset('assets/images/serv-icon4.png') }}" alt="Web Development" />
-                            </a>
-                        </div>
-                        <div class="num">
-                            <span> 01. </span>
-                        </div>
-                        <h5 class="title">
-                            <a href="service-detail.html">
-                                <span> Web Development </span>
-                            </a>
-                        </h5>
-                        <div class="onovo-text">
-                            <div>
-                                <p>We offer custom web application development that fits customer requirements. Our service
-                                    includes the full life cycle of software development life cycle.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--service-item-->
-                <div class="onovo-service-item-list">
-                    <div class="onovo-service-item-list-inner">
-                        <div class="image onovo-hover-1">
-                            <a href="service-detail.html">
-                                <img src="{{ asset('assets/images/serv-icon6.png') }}" alt="Mobile Development" />
-                            </a>
-                        </div>
-                        <div class="num">
-                            <span> 02. </span>
-                        </div>
-                        <h5 class="title">
-                            <a href="service-detail.html">
-                                <span>Mobile Development </span>
-                            </a>
-                        </h5>
-                        <div class="onovo-text">
-                            <div>
-                                <p>Smartphone application is better than a mobile website, So we also offer mobile
-                                    application development for customer business needs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--service-item-->
-                <div class="onovo-service-item-list">
-                    <div class="onovo-service-item-list-inner">
-                        <div class="image onovo-hover-1">
-                            <a href="service-detail.html">
-                                <img src="{{ asset('assets/images/serv-icon1.png') }}" alt="UI/UX Design" />
-                            </a>
-                        </div>
-                        <div class="num">
-                            <span> 03. </span>
-                        </div>
-                        <h5 class="title">
-                            <a href="service-detail.html">
-                                <span> UI/UX Design </span>
-                            </a>
-                        </h5>
-                        <div class="onovo-text">
-                            <div>
-                                <p>We offer UI/UX design service that meets smooth user experience in customer's
-                                    application, which is the most important part of the application.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--service-item-->
-                <div class="onovo-service-item-list">
-                    <div class="onovo-service-item-list-inner">
-                        <div class="image onovo-hover-1">
-                            <a href="service-detail.html">
-                                <img src="{{ asset('assets/images/serv-icon5.png') }}" alt="E-commerce" />
-                            </a>
-                        </div>
-                        <div class="num">
-                            <span> 04. </span>
-                        </div>
-                        <h5 class="title">
-                            <a href="service-detail.html">
-                                <span> E-commerce </span>
-                            </a>
-                        </h5>
-                        <div class="onovo-text">
-                            <div>
-                                <p>We design with the user in mind, We develop with experiences to up your business grind.
-                                    Responsive, Fast Loading and Fraud-proof are the pillars of our E-commerce Expertise.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--service-item-->
-                <div class="onovo-service-item-list">
-                    <div class="onovo-service-item-list-inner">
-                        <div class="image onovo-hover-1">
-                            <a href="service-detail.html">
-                                <img src="{{ asset('assets/images/serv-icon3.png') }}" alt="Branding" />
-                            </a>
-                        </div>
-                        <div class="num">
-                            <span> 05. </span>
-                        </div>
-                        <h5 class="title">
-                            <a href="service-detail.html">
-                                <span> Branding </span>
-                            </a>
-                        </h5>
-                        <div class="onovo-text">
-                            <div>
-                                <p>Brand consistency across all touchpoints, creating a unified brand-user experience and
-                                    branding components into your product’s visual design and language that create a
-                                    delightful experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
+    @include('partials.services')
 
 
     <!-- Onovo History -->
@@ -446,13 +296,15 @@
                                 <div class="onovo-social-2">
                                     <ul>
                                         <li>
-                                            <a class="onovo-social-link onovo-hover-2" href="https://www.facebook.com/korat.tejas?mibextid=ZbWKwL"
+                                            <a class="onovo-social-link onovo-hover-2"
+                                                href="https://www.facebook.com/korat.tejas?mibextid=ZbWKwL"
                                                 title="Facebook" target="_blank">
                                                 <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="onovo-social-link onovo-hover-2" href="https://www.linkedin.com/in/tejas-korat-113430187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                            <a class="onovo-social-link onovo-hover-2"
+                                                href="https://www.linkedin.com/in/tejas-korat-113430187?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                                                 title="LinkedIn" target="_blank">
                                                 <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                             </a>

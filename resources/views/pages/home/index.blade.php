@@ -47,12 +47,12 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                     <div class="onovo-service-grid-item onovo-hover-1">
                         <div class="image">
-                            <a href="{{ route('services') }}">
+                            <a href="{{ route('web-development-services-detail') }}">
                                 <img decoding="async" src="{{ asset('assets/images/serv-icon1.png') }}" alt="Creation" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
-                            <a href="{{ route('services') }}">
+                            <a href="{{ route('web-development-services-detail') }}">
                                 <span> Web Development </span>
                             </a>
                         </h5>
@@ -75,12 +75,12 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                     <div class="onovo-service-grid-item onovo-hover-1 active active--default">
                         <div class="image">
-                            <a href="projects.html">
+                            <a href="{{ route('app-development-services-detail') }}">
                                 <img decoding="async" src="{{ asset('assets/images/serv-icon2.png') }}" alt="Websites" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
-                            <a href="projects.html">
+                            <a href="{{ route('app-development-services-detail') }}">
                                 <span> Mobile Development </span>
                             </a>
                         </h5>
@@ -103,13 +103,13 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
                     <div class="onovo-service-grid-item onovo-hover-1">
                         <div class="image">
-                            <a href="about-us.html">
+                            <a href="{{ route('ui-ux-development-services-detail') }}">
                                 <img decoding="async" src="{{ asset('assets/images/serv-icon3.png') }}" alt="Studio" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
-                            <a href="about-us.html">
-                                <span> UI/UX Design And Ecommerce </span>
+                            <a href="{{ route('ui-ux-development-services-detail') }}">
+                                <span> UI/UX Design </span>
                             </a>
                         </h5>
                         <div class="onovo-text">

@@ -26,6 +26,8 @@ Route::post('/contact-us-form', [ContactUsPageController::class, 'ContactUsForm'
 Route::get('/about-us', [AboutUsPageController::class, 'index'])->name('about-us');
 Route::get('/services', [ServicesPageController::class, 'index'])->name('services');
 Route::get('/web-development-services-detail', [ServicesPageController::class, 'WebDevelopmentServicesDetails'])->name('web-development-services-detail');
+Route::get('/app-development-services-detail', [ServicesPageController::class, 'AppDevelopmentServicesDetails'])->name('app-development-services-detail');
+Route::get('/ui-ux-development-services-detail', [ServicesPageController::class, 'UiUxDevelopmentServicesDetails'])->name('ui-ux-development-services-detail');
 Route::get('/team', [TeamPageController::class, 'index'])->name('team');
 Route::prefix('blog')->group(function () {
     Route::get('/', [BlogPageController::class, 'index'])->name('blog');

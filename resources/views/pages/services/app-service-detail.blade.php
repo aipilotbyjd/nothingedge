@@ -5,13 +5,13 @@
     <section class="onovo-section onovo-intro intro--black">
         <div class="container">
             <h1 class="onovo-title-1  onovo-text-white">
-                <span> Web Development </span>
+                <span> App Development </span>
                 <span class="onovo-sep word">
                     <i class="sep-img" style="background-image: url(assets/images/title_icon.svg);"></i>
                 </span>
             </h1>
             <div class="onovo-subtitle-2  onovo-text-white">
-                <span> Intended To Interact, Developed To Succeed. </span>
+                <span> Activating Super Apps With Mobile Mavens! </span>
             </div>
             <div class="onovo-breadcrums">
                 <ul>
@@ -34,25 +34,24 @@
 
                     <!-- Image -->
                     <div class="gap-bottom-50">
-                        <img src="{{ asset('assets/images/post1.jpg') }}" alt="img" />
+                        <img src="{{ asset('assets/images/post3.jpg') }}" alt="img" />
                     </div>
 
                     <!-- Description -->
                     <div class="onovo-text">
-                        <h3>Custom Web App Development</h3>
-                        <p>Our web app developers are experts at understanding unique business app requirements and building
-                            custom websites that match client and customer interests. Our top web app development company
-                            uses powerful tech to integrate a data-rich front and back-end solution.
+                        <h3>Stay on ‘Top-Of-The-League’ with Our Mobile App Development Services</h3>
+                        <p>Be the industry king and create your aura by crafting intricate mobile applications that reflect
+                            your business vision. Our leading mobile app development company offers premium mobile
+                            application development services.
                         </p>
                     </div>
                     <div class="onovo-text">
-                        <h3>Content Management Systems (CMS)</h3>
-                        <p>We offer expertise in developing and customizing content management systems such as WordPress,
-                            Drupal, and Joomla. Whether you need a simple blogging platform or a complex enterprise-level
-                            CMS, we can tailor a solution to meet your content management needs.
+                        <h3>Elevating Digital Experiences: Our Top-Grade Mobile App Development Services</h3>
+                        <p>Innovating experiences & leading ahead in this mobile-first world! We scale the digital maturity
+                            curve by delivering high-end, fully-fledged, integrated, transformative & top-grade Mobile App
+                            Development Services.
                         </p>
                     </div>
-
                     <!-- Faq items -->
                     {{-- <div class="onovo-faq-items">
 
@@ -147,22 +146,46 @@
                     </div> --}}
 
                     <div class="onovo-text gap-top-50">
-                        <h3>Highest Expectations</h3>
-                        <p>For over a decade, we've created epic visual masterpieces - from stunning animations to seamless
-                            navigation, we've got it all. Then, we move towards executing a product for the world to enjoy!
+                        <h3>Sleek iOS App Development</h3>
+                        <p>Portray the finest version of an iOS application with the expertise of our mobile app development
+                            team. We craft sleek & interactive designs that portray your brand identity and lock the
+                            audience’s attention. Integrate modern and trendy features that enhance the functionality of
+                            your iOS app.
                         </p>
                         <ul>
                             <li>
-                                Over a decade of experience in creating epic visual masterpieces..
+                                iPhone App Development
                             </li>
                             <li>
-                                Over a decade of experience in creating epic visual masterpieces..
+                                iPad App Development
                             </li>
                             <li>
-                                Commitment to executing products that the world can enjoy.
+                                iOS App with SiriKit
                             </li>
                             <li>
-                                Realistic pricing and project timescales.
+                                iOS App with ARKit
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="onovo-text gap-top-50">
+                        <h3>Trendy Android App Development</h3>
+                        <p>Want to develop an Android app that stands apart from the competition? With our custom mobile app
+                            development services, you can integrate all the features and design aspects on your mind. Get
+                            your customer engagement ticking by updating your app to the latest trends.
+                        </p>
+                        <ul>
+                            <li>
+                                Android Mobile App Development
+                            </li>
+                            <li>
+                                Interactive Android App Design
+                            </li>
+                            <li>
+                                Deployment of the Latest Android Technologies
+                            </li>
+                            <li>
+                                Wearable App Development
                             </li>
                         </ul>
                     </div>
@@ -179,38 +202,28 @@
                             <div class="list">
                                 <ul>
                                     <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> PHP Development </span>
+                                        <a class="onovo-lnk" href="{{ route('app-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> iOS App Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> Laravel Development </span>
+                                        <a class="onovo-lnk" href="{{ route('app-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Android App Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> CodeIgniter Development </span>
+                                        <a class="onovo-lnk" href="{{ route('app-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> React Native App Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> NodeJS Development </span>
+                                        <a class="onovo-lnk" href="{{ route('app-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Flutter App Development </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> ReactJS Development </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> Wordprees/Shopify Development </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="onovo-lnk" href="#">
-                                            <span data-splitting data-onovo-scroll> Ecommerce Development </span>
+                                        <a class="onovo-lnk" href="{{ route('app-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Kotlin App Development </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -268,7 +281,7 @@
             <!-- Navigation -->
             <div class="onovo-page-navigation">
                 <div class="onovo-page-navigation-content">
-                    <a href="{{ route('web-development-services-detail') }}" class="page-navigation__prev">
+                    <a href="{{ route('app-development-services-detail') }}" class="page-navigation__prev">
                         <span class="onovo-prev onovo-hover-2">
                             <i></i>
                         </span>
@@ -276,7 +289,7 @@
                     <a href="{{ route('services') }}" class="page-navigation__posts">
                         <i class="fas fa-th"></i>
                     </a>
-                    <a href="{{ route('web-development-services-detail') }}" class="page-navigation__next">
+                    <a href="{{ route('app-development-services-detail') }}" class="page-navigation__next">
                         <span class="onovo-next onovo-hover-2">
                             <i></i>
                         </span>
