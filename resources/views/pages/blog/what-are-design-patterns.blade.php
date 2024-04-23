@@ -16,7 +16,7 @@
                         <a href="{{ route('home') }}">Home </a>
                     </li>
                     <li>
-                        <a href="blog.html">Blog </a>
+                        <a href="{{ route('blog') }}">Blog </a>
                     </li>
                     <li class="current">
                         <span>what-are-design-patterns </span>
@@ -177,7 +177,7 @@
             </div>
 
             <!-- Post Comments -->
-            <div class="onovo-post-comments">
+            {{-- <div class="onovo-post-comments">
 
                 <!-- Comments -->
                 <div id="comments" class="comment post-sb__comment">
@@ -266,7 +266,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> --}}
 
         </div>
     </section>

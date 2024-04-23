@@ -7,8 +7,10 @@
                     <!-- Logo -->
                     <div class="onovo-logo-image" style="max-width: 70px">
                         <a href="{{ route('home') }}">
-                            <img  src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}" alt="Onovo" />
-                            <img class="logo--white" src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}" alt="Onovo" />
+                            <img src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}" alt="Onovo" />
+                            <img class="logo--white"
+                                src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}"
+                                alt="Onovo" />
                         </a>
                     </div>
 
@@ -24,10 +26,10 @@
                             <div class="container">
                                 <div class="onovo-menu">
                                     <ul class="onovo-menu-nav">
-                                        <li class="dropdown-link current-menu-item menu-item-has-children">
+                                        <li>
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
-                                                href="index.html">Home</a>
-                                            <i class="icon fas fa-chevron-down"></i>
+                                                href="{{ route('home') }}">Home</a>
+                                            {{-- <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li class="current-menu-item">
                                                     <a class="onovo-lnk lnk--active" href="index.html">Creative
@@ -45,12 +47,12 @@
                                                     <a class="onovo-lnk lnk--active"
                                                         href="home-parallax.html">Fullscreen Parallax</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li class="dropdown-link menu-item-has-children">
+                                        <li>
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
-                                                href="about-us.html">About</a>
-                                            <i class="icon fas fa-chevron-down"></i>
+                                                href="{{ route('about-us') }}">About Us</a>
+                                            {{-- <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <a class="onovo-lnk lnk--active"
@@ -79,7 +81,7 @@
                                                 <li>
                                                     <a class="onovo-lnk lnk--active" href="faq.html">FAQ</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li class="dropdown-link menu-item-has-children">
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
@@ -87,7 +89,8 @@
                                             <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a class="onovo-lnk lnk--active" href="{{ route('projects') }}">Projects
+                                                    <a class="onovo-lnk lnk--active"
+                                                        href="{{ route('projects') }}">Projects
                                                         Grid</a>
                                                 </li>
                                                 <li>
@@ -116,10 +119,10 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown-link menu-item-has-children">
+                                        <li>
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
-                                                href="blog.html">Blog</a>
-                                            <i class="icon fas fa-chevron-down"></i>
+                                                href="{{ route('blog') }}">Blog</a>
+                                            {{-- <i class="icon fas fa-chevron-down"></i>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <a class="onovo-lnk lnk--active" href="blog.html">Blog
@@ -132,11 +135,10 @@
                                                     <a class="onovo-lnk lnk--active" href="{{ route('blog') }}">Blog
                                                         Detail</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li>
-                                            <a class="onovo-lnk lnk--active"
-                                                href="{{ route('contact-us') }}">Contact
+                                            <a class="onovo-lnk lnk--active" href="{{ route('contact-us') }}">Contact
                                                 Us</a>
                                         </li>
                                     </ul>

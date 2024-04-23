@@ -5,8 +5,10 @@
     <section class="onovo-section onovo-hero">
         <div class="image">
             <video autoplay muted loop playsinline id="heroVideo">
-                <source src="assets/images/stvideo.mp4" type="video/mp4">
-                    {{-- <source src="{{asset('assets/images/vecteezy_business-documents-auditor-businesswoman-checking-searching_23271982.mp4')}}" type="video/mp4"> --}}
+                {{-- <source src="assets/images/stvideo.mp4" type="video/mp4"> --}}
+                <source
+                    src="{{ asset('assets/images/vecteezy_business-documents-auditor-businesswoman-checking-searching_23271982.mp4') }}"
+                    type="video/mp4">
 
             </video>
             <div class="ovrl" style="opacity: 0.25;"></div>
@@ -21,7 +23,7 @@
             <div class="text">
                 <div class="subtitle onovo-text-white">
                     <div data-splitting data-onovo-scroll> Creative studio at the <br> intersection of art,
-                        design <br> and technology. </div>
+                        design < br> and technology. </div>
                 </div>
             </div>
             <a href="#" class="onovo-play-btn">
@@ -394,7 +396,7 @@
     </section>
 
     <!-- Onovo Team -->
-    <section class="onovo-section gap-top-140 gap-bottom-140">
+    {{-- <section class="onovo-section gap-top-140 gap-bottom-140">
         <div class="container">
 
             <!-- Heading -->
@@ -585,7 +587,7 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
     <!-- Onovo Reviews -->
     <section class="onovo-section gap-bottom-140">
@@ -603,14 +605,14 @@
                             </h2>
                             <div class="onovo-reviews-summary">
                                 <span class="label onovo-text-black">
-                                    <span data-splitting data-onovo-scroll> 4.0 </span>
+                                    <span data-splitting data-onovo-scroll> 5.0 </span>
                                 </span>
                                 <span class="onovo-stars">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star"></i>
                                 </span>
                                 <span class="label">
                                     <span data-splitting data-onovo-scroll> Rating from all Client's </span>
@@ -640,7 +642,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <span data-splitting> Thomas Smith </span>
+                                            <span data-splitting> Tejas Korat </span>
                                         </h5>
                                         <div class="subtitle">
                                             <span data-splitting> Customer Support </span>
@@ -658,15 +660,15 @@
                                     <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
                                         <div class="text">
                                             <div data-splitting>
-                                                <p>“ Their high level of customer service <br />complemented
-                                                    their technical expertise. <br />They were responsive,
-                                                    supportive, and <br />communicative. Their dedication to
-                                                    <br />the project was impressive. ”
+                                                <p>“ Working with NothingEdge Technology has been an absolute pleasure.
+                                                    Their team's expertise and dedication to excellence are unmatched. They
+                                                    delivered our project on time and exceeded our expectations in every
+                                                    way. Highly recommended! ”
                                                 </p>
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <span data-splitting> Mike Cameron </span>
+                                            <span data-splitting> Jaydeep Dhrangiya </span>
                                         </h5>
                                         <div class="subtitle">
                                             <span data-splitting> Code Quality </span>
@@ -684,15 +686,16 @@
                                     <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
                                         <div class="text">
                                             <div data-splitting>
-                                                <p>“ Their high level of customer service <br />complemented
-                                                    their technical expertise. <br />They were responsive,
-                                                    supportive, and <br />communicative. Their dedication to
-                                                    <br />the project was impressive. ”
+                                                <p>“ I can't thank NothingEdge Technology enough for the incredible work
+                                                    they did on our software project. From start to finish, they
+                                                    demonstrated professionalism, creativity, and a deep understanding of
+                                                    our needs. The end result speaks for itself – a high-quality solution
+                                                    that has transformed our business. ”
                                                 </p>
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <span data-splitting> Jessica Brown </span>
+                                            <span data-splitting> Tejas Korat </span>
                                         </h5>
                                         <div class="subtitle">
                                             <span data-splitting> Design Quality </span>
@@ -703,6 +706,32 @@
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+
+                                    <!--slide-->
+                                    <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
+                                        <div class="text">
+                                            <div data-splitting>
+                                                <p>“ Choosing NothingEdge Technology for our software development needs was
+                                                    one of the best decisions we made. Their team's attention to detail and
+                                                    commitment to delivering top-notch solutions is commendable. We're
+                                                    thrilled with the results and look forward to future collaborations! ”
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <span data-splitting> Jaydeep Dhrangiya </span>
+                                        </h5>
+                                        <div class="subtitle">
+                                            <span data-splitting> Code Quality </span>
+                                        </div>
+                                        <div class="onovo-stars stars--small">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
                                         </div>
                                     </div>
 
@@ -787,7 +816,7 @@
 
     <!-- Onovo CTA -->
     <section class="onovo-section gap-top-140 gap-bottom-140"
-        style="background-image: url(assets/images/cta-bg-1.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+        style="background-image: url(assets/images/eastman-childs-CEtIM994vaI-unsplash.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
@@ -918,25 +947,28 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-blog-item">
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.html">
-                                <img decoding="async" src="assets/images/post1-1000x667.jpg" width="400"
-                                    height="240" alt="The Main Thing For The Web Designer" />
+                            <a href="{{ route('web-development-life-cycle') }}">
+                                <img decoding="async" src="{{ asset('assets/images/post3.jpg') }}" width="400"
+                                    height="240" alt="Web Development Life Cycle: Everything You need to Know" />
                             </a>
                         </div>
                         <div class="desc">
                             <div class="info">
-                                <div class="date">March 18, 2023</div>Design
+                                <div class="date">March 18, 2023</div>Web Development
+
                             </div>
                             <h5 class="title">
-                                <a href="blog-detail.html">
-                                    <span>The Main Thing For The Web Designer</span>
+                                <a href="{{ route('web-development-life-cycle') }}">
+                                    <span>Web Development Life Cycle: Everything You need to Know</span>
                                 </a>
                             </h5>
                             <div class="onovo-text">
                                 <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most
-                                        innovative and successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.html" class="onovo-btn onovo-hover-btn">
+                                    <p> In this blog, we outline the web development life cycle step by step. From initial
+                                        research to final maintenance, we cover key phases, technologies, and costs. This
+                                        guide provides a clear understanding of the process.&#8230; <br />
+                                        <a href="{{ route('web-development-life-cycle') }}"
+                                            class="onovo-btn onovo-hover-btn">
                                             <span>Read more</span>
                                         </a>
                                     </p>
@@ -950,25 +982,28 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-blog-item">
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.html">
-                                <img decoding="async" src="assets/images/post4-1000x667.jpg" width="400"
-                                    height="240" alt="How to Do Your First Business Project" />
+                            <a href="{{ route('web-application-architecture') }}">
+                                <img decoding="async" src="{{ asset('assets/images/post4.jpg') }}" width="400"
+                                    height="240" alt="Web Application Architecture" />
                             </a>
                         </div>
                         <div class="desc">
                             <div class="info">
-                                <div class="date">March 10, 2023</div>News
+                                <div class="date">April 21, 2024</div>Web Application
                             </div>
                             <h5 class="title">
-                                <a href="blog-detail.html">
-                                    <span>How to Do Your First Business Project</span>
+                                <a href="{{ route('web-application-architecture') }}">
+                                    <span>Web Application Architecture</span>
                                 </a>
                             </h5>
                             <div class="onovo-text">
                                 <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most
-                                        innovative and successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.html" class="onovo-btn onovo-hover-btn">
+                                    <p>This blog provides an ultimate guide to web application architecture, exploring its
+                                        components, layers, types, and best practices. It delves into the intricate
+                                        structures that power modern web applications, ensuring efficiency, scalability, and
+                                        security.&#8230; <br />
+                                        <a href="{{ route('web-application-architecture') }}"
+                                            class="onovo-btn onovo-hover-btn">
                                             <span>Read more</span>
                                         </a>
                                     </p>
@@ -994,7 +1029,7 @@
     </section>
 
     <!-- Onovo Brands -->
-    <section class="onovo-section">
+    {{-- <section class="onovo-section">
         <div class="container">
 
             <!-- Heading -->
@@ -1117,5 +1152,5 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 @endsection

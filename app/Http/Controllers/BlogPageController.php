@@ -20,4 +20,14 @@ class BlogPageController extends Controller
     {
         return view('pages.blog.what-are-design-patterns');
     }
+
+    public function WebDevelopmentLifeCycle()
+    {
+        return view('pages.blog.web-development-life-cycle');
+    }
+
+    public function WebApplicationArchitecture()
+    {
+        return view('pages.blog.web-application-architecture');
+    }
 }

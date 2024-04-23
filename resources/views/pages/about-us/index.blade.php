@@ -232,7 +232,6 @@
                         </div>
 
                     </div>
-
                     <!--navs-->
                     <div class="onovo-navs js-history-navs">
                         <div class="onovo-prev js-history-prev onovo-hover-2">
@@ -517,13 +516,17 @@
                                     <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
                                         <div class="text">
                                             <div data-splitting>
-                                                <p>“ Their high level of customer service complemented their technical
-                                                    expertise. They were responsive, supportive, and communicative. Their
-                                                    dedication to the project was impressive. ”</p>
+                                                <p>“Working with Nothingedge Technology has been a game-changer for our
+                                                    business. Their team's expertise and dedication to excellence have
+                                                    helped us develop innovative software solutions that have significantly
+                                                    improved our efficiency and productivity. I highly recommend Nothingedge
+                                                    Technology to any business looking for top-notch software development
+                                                    services.”
+                                                </p>
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <span data-splitting> Thomas Smith </span>
+                                            <span data-splitting> Tejas Korat </span>
                                         </h5>
                                         <div class="subtitle">
                                             <span data-splitting> Customer Support </span>
@@ -541,13 +544,15 @@
                                     <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
                                         <div class="text">
                                             <div data-splitting>
-                                                <p>“ Their high level of customer service complemented their technical
-                                                    expertise. They were responsive, supportive, and communicative. Their
-                                                    dedication to the project was impressive. ”</p>
+                                                <p>“ Working with NothingEdge Technology has been an absolute pleasure.
+                                                    Their team's expertise and dedication to excellence are unmatched. They
+                                                    delivered our project on time and exceeded our expectations in every
+                                                    way. Highly recommended! ”
+                                                </p>
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <span data-splitting> Mike Cameron </span>
+                                            <span data-splitting> Jaydeep Dhrangiya </span>
                                         </h5>
                                         <div class="subtitle">
                                             <span data-splitting> Code Quality </span>
@@ -565,13 +570,42 @@
                                     <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
                                         <div class="text">
                                             <div data-splitting>
-                                                <p>“ Their high level of customer service complemented their technical
-                                                    expertise. They were responsive, supportive, and communicative. Their
-                                                    dedication to the project was impressive. ”</p>
+                                                <p>“ I can't thank NothingEdge Technology enough for the incredible work
+                                                    they did on our software project. From start to finish, they
+                                                    demonstrated professionalism, creativity, and a deep understanding of
+                                                    our needs. The end result speaks for itself – a high-quality solution
+                                                    that has transformed our business. ”
+                                                </p>
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <span data-splitting> Jessica Brown </span>
+                                            <span data-splitting> Tejas Korat </span>
+                                        </h5>
+                                        <div class="subtitle">
+                                            <span data-splitting> Design Quality </span>
+                                        </div>
+                                        <div class="onovo-stars stars--small">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+
+                                    <!--slide-->
+                                    <div class="swiper-slide onovo-reviews-item" data-swiper-autoplay>
+                                        <div class="text">
+                                            <div data-splitting>
+                                                <p>“ Choosing NothingEdge Technology for our software development needs was
+                                                    one of the best decisions we made. Their team's attention to detail and
+                                                    commitment to delivering top-notch solutions is commendable. We're
+                                                    thrilled with the results and look forward to future collaborations! ”
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <span data-splitting> Jaydeep Dhrangiya </span>
                                         </h5>
                                         <div class="subtitle">
                                             <span data-splitting> Design Quality </span>
@@ -608,7 +642,7 @@
     </section>
 
     <!-- Onovo Brands -->
-    <section class="onovo-section">
+    {{-- <section class="onovo-section">
         <div class="container">
 
             <!-- Heading -->
@@ -731,5 +765,5 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 @endsection

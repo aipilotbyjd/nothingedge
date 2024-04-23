@@ -16,7 +16,7 @@
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="{{ route('home') }}">Home </a>
                     </li>
                     <li class="current">
                         <span>Blog </span>
@@ -37,24 +37,27 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-blog-item">
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.png">
-                                <img src="assets/images/posts3-1000x667.jpg" alt="Usability Secrets to Create Interfaces" />
+                            <a href="{{ route('what-are-design-patterns') }}">
+                                <img decoding="async" src="{{ asset('assets/images/post1.jpg') }}" width="400"
+                                    height="240" alt="What are Design Patterns and why you should know them?" />
                             </a>
                         </div>
                         <div class="desc">
                             <div class="info">
-                                <div class="date">March 25, 2023</div>Branding
+                                <div class="date">March 25, 2023</div>Design
                             </div>
                             <h5 class="title">
-                                <a href="blog-detail.png">
-                                    <span>Usability Secrets to Create Interfaces</span>
+                                <a href="{{ route('what-are-design-patterns') }}">
+                                    <span>What are Design Patterns and why you should know them?</span>
                                 </a>
                             </h5>
                             <div class="onovo-text">
                                 <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most innovative and
-                                        successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.png" class="onovo-btn onovo-hover-btn">
+                                    <p>Design patterns are essential tools in the arsenal of any software developer. They
+                                        represent proven solutions to common problems encountered during software design and
+                                        development. &#8230; <br />
+                                        <a href="{{ route('what-are-design-patterns') }}"
+                                            class="onovo-btn onovo-hover-btn">
                                             <span>Read more</span>
                                         </a>
                                     </p>
@@ -68,24 +71,28 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-blog-item">
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.png">
-                                <img src="assets/images/post1-1000x667.jpg" alt="The Main Thing For The Web Designer" />
+                            <a href="{{ route('web-development-life-cycle') }}">
+                                <img decoding="async" src="{{ asset('assets/images/post3.jpg') }}" width="400"
+                                    height="240" alt="Web Development Life Cycle: Everything You need to Know" />
                             </a>
                         </div>
                         <div class="desc">
                             <div class="info">
-                                <div class="date">March 18, 2023</div>Design
+                                <div class="date">March 18, 2023</div>Web Development
+
                             </div>
                             <h5 class="title">
-                                <a href="blog-detail.png">
-                                    <span>The Main Thing For The Web Designer</span>
+                                <a href="{{ route('web-development-life-cycle') }}">
+                                    <span>Web Development Life Cycle: Everything You need to Know</span>
                                 </a>
                             </h5>
                             <div class="onovo-text">
                                 <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most innovative and
-                                        successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.png" class="onovo-btn onovo-hover-btn">
+                                    <p> In this blog, we outline the web development life cycle step by step. From initial
+                                        research to final maintenance, we cover key phases, technologies, and costs. This
+                                        guide provides a clear understanding of the process.&#8230; <br />
+                                        <a href="{{ route('web-development-life-cycle') }}"
+                                            class="onovo-btn onovo-hover-btn">
                                             <span>Read more</span>
                                         </a>
                                     </p>
@@ -99,119 +106,28 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="onovo-blog-item">
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.png">
-                                <img src="assets/images/post4-1000x667.jpg" alt="How to Do Your First Business Project" />
+                            <a href="{{ route('web-application-architecture') }}">
+                                <img decoding="async" src="{{ asset('assets/images/post4.jpg') }}" width="400"
+                                    height="240" alt="Web Application Architecture" />
                             </a>
                         </div>
                         <div class="desc">
                             <div class="info">
-                                <div class="date">March 10, 2023</div>News
+                                <div class="date">April 21, 2024</div>Web Application
                             </div>
                             <h5 class="title">
-                                <a href="blog-detail.png">
-                                    <span>How to Do Your First Business Project</span>
+                                <a href="{{ route('web-application-architecture') }}">
+                                    <span>Web Application Architecture</span>
                                 </a>
                             </h5>
                             <div class="onovo-text">
                                 <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most innovative and
-                                        successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.png" class="onovo-btn onovo-hover-btn">
-                                            <span>Read more</span>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--blog item-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <div class="onovo-blog-item">
-                        <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.png">
-                                <img src="assets/images/post5-1000x667.jpg" alt="3 Ways To Level Up Your Photography" />
-                            </a>
-                        </div>
-                        <div class="desc">
-                            <div class="info">
-                                <div class="date">February 27, 2023</div>Design
-                            </div>
-                            <h5 class="title">
-                                <a href="blog-detail.png">
-                                    <span>3 Ways To Level Up Your Photography</span>
-                                </a>
-                            </h5>
-                            <div class="onovo-text">
-                                <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most innovative and
-                                        successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.png" class="onovo-btn onovo-hover-btn">
-                                            <span>Read more</span>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--blog item-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <div class="onovo-blog-item">
-                        <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.png">
-                                <img src="assets/images/post6-1000x667.jpg"
-                                    alt="How to Find Inspiration and Not Lose Yourself" />
-                            </a>
-                        </div>
-                        <div class="desc">
-                            <div class="info">
-                                <div class="date">February 17, 2023</div>News
-                            </div>
-                            <h5 class="title">
-                                <a href="blog-detail.png">
-                                    <span>How to Find Inspiration and Not Lose Yourself</span>
-                                </a>
-                            </h5>
-                            <div class="onovo-text">
-                                <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most innovative and
-                                        successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.png" class="onovo-btn onovo-hover-btn">
-                                            <span>Read more</span>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--blog item-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <div class="onovo-blog-item">
-                        <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <a href="blog-detail.png">
-                                <img src="assets/images/post3-1000x667.jpg"
-                                    alt="Leading Digital Agency with Solid Design" />
-                            </a>
-                        </div>
-                        <div class="desc">
-                            <div class="info">
-                                <div class="date">January 18, 2023</div>Design
-                            </div>
-                            <h5 class="title">
-                                <a href="blog-detail.png">
-                                    <span>Leading Digital Agency with Solid Design</span>
-                                </a>
-                            </h5>
-                            <div class="onovo-text">
-                                <div>
-                                    <p>Ambleton: Behind the Branding of High Calgary&#8217;s Community Most innovative and
-                                        successful builders and real estate&#8230; <br />
-                                        <a href="blog-detail.png" class="onovo-btn onovo-hover-btn">
+                                    <p>This blog provides an ultimate guide to web application architecture, exploring its
+                                        components, layers, types, and best practices. It delves into the intricate
+                                        structures that power modern web applications, ensuring efficiency, scalability, and
+                                        security.&#8230; <br />
+                                        <a href="{{ route('web-application-architecture') }}"
+                                            class="onovo-btn onovo-hover-btn">
                                             <span>Read more</span>
                                         </a>
                                     </p>
@@ -224,13 +140,13 @@
             </div>
 
             <!-- pager -->
-            <div class="pager">
+            {{-- <div class="pager">
                 <span class="page-numbers current">1</span>
                 <a class="page-numbers" href="#">2</a>
                 <a class="next page-numbers" href="#">
                     <i class="icon-arrow"></i>
                 </a>
-            </div>
+            </div> --}}
 
         </div>
     </div>

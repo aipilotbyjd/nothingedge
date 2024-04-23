@@ -20,8 +20,7 @@
                         <p style="opacity: 0.6;">111, Sankalp Icon, Police station, Main Rd, <br /> opp. Parikh Hospital
                             Nikol, Ahmedabad, Gujarat 382350 </p>
                         <p style="opacity: 0.6;">
-                            <a href="tel:+10204302973" class="onovo-lnk lnk--white" target="_blank">+ 1 (020)
-                                430 2973</a><br>
+                            <a href="tel:+8200737927" class="onovo-lnk lnk--white" target="_blank">+ 91 8200737927</a><br>
                             <a href="mailto:username@domain.com" class="onovo-lnk lnk--white"
                                 target="_blank">username@domain.com</a>
                         </p>

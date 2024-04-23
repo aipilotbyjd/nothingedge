@@ -35,4 +35,7 @@ Route::prefix('blog')->group(function () {
 });
 Route::get('blog-details', [BlogPageController::class, 'BlogDetails'])->name('blog-details');
 Route::get('what-are-design-patterns', [BlogPageController::class, 'WhatAreDesignPatterns'])->name('what-are-design-patterns');
+Route::get('web-development-life-cycle', [BlogPageController::class, 'WebDevelopmentLifeCycle'])->name('web-development-life-cycle');
+Route::get('web-application-architecture', [BlogPageController::class, 'WebApplicationArchitecture'])->name('web-application-architecture');
 Route::get('/projects', [ProjectsPageController::class, 'index'])->name('projects');
+
