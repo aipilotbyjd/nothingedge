@@ -153,9 +153,9 @@
                 <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center align-right">
 
                     <!-- Button -->
-                    <a class="onovo-head-btn onovo-hover-btn" href="projects.html">
+                    <a class="onovo-head-btn onovo-hover-btn" href="{{ route('projects') }}">
                         <span>
-                            <span class="onovo-lnk lnk--active">Showcase</span>
+                            <span class="onovo-lnk lnk--active">Portfolio</span>
                         </span>
                         <i class="arrow">
                             <span></span>
