@@ -8,6 +8,6 @@ class ProjectsPageController extends Controller
 {
     public function index()
     {
-        return view('pages.projects.index');
+        return view('pages.projects.projects-list');
     }
 }

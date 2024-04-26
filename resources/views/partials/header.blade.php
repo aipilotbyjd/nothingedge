@@ -5,11 +5,11 @@
                 <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-3 align-self-center">
 
                     <!-- Logo -->
-                    <div class="onovo-logo-image" style="max-width: 70px">
+                    <div class="onovo-logo-image" style="max-width: 200px">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}" alt="Onovo" />
+                            <img src="{{ asset('assets/images/main_logo.png') }}" alt="Onovo" />
                             <img class="logo--white"
-                                src="{{ asset('assets/images/nothingEdgeLogo-removebg-preview.png') }}"
+                                src="{{ asset('assets/images/main_logo.png') }}"
                                 alt="Onovo" />
                         </a>
                     </div>

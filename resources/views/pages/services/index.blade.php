@@ -170,6 +170,11 @@
                                     </li>
                                     <li>
                                         <a class="onovo-lnk" href="{{ route('ui-ux-development-services-detail') }}">
+                                            <span data-splitting data-onovo-scroll> Webflow Development </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="onovo-lnk" href="{{ route('ui-ux-development-services-detail') }}">
                                             <span data-splitting data-onovo-scroll> Adobe XD Development </span>
                                         </a>
                                     </li>
