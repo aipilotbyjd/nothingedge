@@ -182,7 +182,7 @@
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="http://linkedin.com" target="_blank">
+                                        href="https://www.linkedin.com/company/nothingedge-technology" target="_blank">
                                         <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                         <span> LinkedIn </span>
                                     </a>
