@@ -83,6 +83,10 @@
                                         </li>
                                         <li>
                                             <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
+                                                href="{{ route('technology') }}">Technology</a>
+                                        </li>
+                                        <li>
+                                            <a class="onovo-lnk lnk--active onovo-dropdown-toggle"
                                                 href="{{ route('projects') }}">Portfolio</a>
                                             {{-- <i class="icon fas fa-chevron-down"></i> --}}
                                             {{-- <ul class="sub-menu">

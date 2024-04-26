@@ -7,6 +7,7 @@ use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\ProjectsPageController;
 use App\Http\Controllers\ServicesPageController;
 use App\Http\Controllers\TeamPageController;
+use App\Http\Controllers\TechnologyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,4 +39,5 @@ Route::get('what-are-design-patterns', [BlogPageController::class, 'WhatAreDesig
 Route::get('web-development-life-cycle', [BlogPageController::class, 'WebDevelopmentLifeCycle'])->name('web-development-life-cycle');
 Route::get('web-application-architecture', [BlogPageController::class, 'WebApplicationArchitecture'])->name('web-application-architecture');
 Route::get('/projects', [ProjectsPageController::class, 'index'])->name('projects');
+Route::get('/technology', [TechnologyController::class, 'index'])->name('technology');
 
