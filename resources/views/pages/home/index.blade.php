@@ -7,7 +7,7 @@
             <video autoplay muted loop playsinline id="heroVideo">
                 {{-- <source src="assets/images/stvideo.mp4" type="video/mp4"> --}}
                 <source
-                    src="{{ asset('assets/images/vecteezy_business-documents-auditor-businesswoman-checking-searching_23271982.mp4') }}"
+                    src="{{ asset('assets/images/art_small.mp4') }}"
                     type="video/mp4">
 
             </video>
@@ -23,7 +23,7 @@
             <div class="text">
                 <div class="subtitle onovo-text-white">
                     <div data-splitting data-onovo-scroll> Creative studio at the <br> intersection of art,
-                        design < br> and technology. </div>
+                        design <br> and technology. </div>
                 </div>
             </div>
             <a href="#" class="onovo-play-btn">
