@@ -318,7 +318,7 @@
                                     </a>
                                 </h5>
                                 <div class="onovo-subtitle-1">
-                                    <span data-splitting data-onovo-scroll> Chief Executive Officer </span>
+                                    <span data-splitting data-onovo-scroll> Chief Executive Officer (CEO) &amp; Co-Founder </span>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +342,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="onovo-social-link onovo-hover-2" href="linkedin.com"
+                                            <a class="onovo-social-link onovo-hover-2" href="https://www.linkedin.com/in/jaydeep-dhrangiya"
                                                 title="LinkedIn" target="_blank">
                                                 <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                             </a>
@@ -357,7 +357,7 @@
                                     </a>
                                 </h5>
                                 <div class="onovo-subtitle-1">
-                                    <span data-splitting data-onovo-scroll> Chief Executive Officer </span>
+                                    <span data-splitting data-onovo-scroll> Chief Executive Officer (CEO) &amp; Co-Founder </span>
                                 </div>
                             </div>
                         </div>

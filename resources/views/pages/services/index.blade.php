@@ -274,8 +274,8 @@
                     <!-- Text -->
                     <div class="onovo-cta-text">
                         <a href="mailto:contact@nothingedge.com" target="_blank">contact@nothingedge.com</a>
-                        <p>111, Sankalp Icon, Police station, Main Rd,
-                            opp. Parikh Hospital Nikol, Ahmedabad, Gujarat 382350.</p>
+                        <p>111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
+                            Ahmedabad-382350, India.</p>
                     </div>
 
                 </div>
@@ -315,8 +315,7 @@
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="https://www.linkedin.com/in/nothingedge-technology-29261b2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                        target="_blank">
+                                        href="https://www.linkedin.com/company/nothingedge-technology" target="_blank">
                                         <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                         <span> LinkedIn </span>
                                     </a>

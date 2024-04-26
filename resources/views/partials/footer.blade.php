@@ -17,12 +17,13 @@
                     <!-- Description -->
                     <div class="onovo-text onovo-text-white">
                         <h5>Get in Touch</h5>
-                        <p style="opacity: 0.6;">111, Sankalp Icon, Police station, Main Rd, <br /> opp. Parikh Hospital
-                            Nikol, Ahmedabad, Gujarat 382350 </p>
+                        <p style="opacity: 0.6;">111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
+                            Ahmedabad-382350, India. </p>
                         <p style="opacity: 0.6;">
-                            <a href="tel:+8200737927" class="onovo-lnk lnk--white" target="_blank">+ 91 8200737927</a><br>
-                            <a href="mailto:username@domain.com" class="onovo-lnk lnk--white"
-                                target="_blank">username@domain.com</a>
+                            <a href="tel:+918200737927" class="onovo-lnk lnk--white" target="_blank">+ 91
+                                8200737927</a><br>
+                            <a href="mailto:contact@nothonedge.com" class="onovo-lnk lnk--white"
+                                target="_blank">contact@nothonedge.com</a>
                         </p>
                     </div>
 
@@ -115,7 +116,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="onovo-social-link onovo-hover-2" href="http://linkedin.com" title="LinkedIn"
+                                <a class="onovo-social-link onovo-hover-2" href="https://www.linkedin.com/company/nothingedge-technology" title="LinkedIn"
                                     target="_blank">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>

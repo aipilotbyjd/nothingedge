@@ -111,8 +111,8 @@
                             </li>
                             <li>
                                 <h5>Houston</h5>
-                                <div>111, Sankalp Icon, Police station, Main Rd,
-                                    opp. Parikh Hospital Nikol, Ahmedabad, Gujarat 382350</div>
+                                <div>111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
+                                    Ahmedabad-382350, India.</div>
                             </li>
                             <li>
                                 <h5>Los Angeles</h5>

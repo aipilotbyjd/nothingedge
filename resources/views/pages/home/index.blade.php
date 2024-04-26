@@ -6,9 +6,7 @@
         <div class="image">
             <video autoplay muted loop playsinline id="heroVideo">
                 {{-- <source src="assets/images/stvideo.mp4" type="video/mp4"> --}}
-                <source
-                    src="{{ asset('assets/images/art_small.mp4') }}"
-                    type="video/mp4">
+                <source src="{{ asset('assets/images/art_small.mp4') }}" type="video/mp4">
 
             </video>
             <div class="ovrl" style="opacity: 0.25;"></div>
@@ -836,8 +834,8 @@
                     <!-- Text -->
                     <div class="onovo-cta-text">
                         <a href="mailto:contact@nothingedge.com" target="_blank">contact@nothingedge.com</a>
-                        <p>111, Sankalp Icon, Police station, Main Rd,
-                            opp. Parikh Hospital Nikol, Ahmedabad, Gujarat 382350.</p>
+                        <p>111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
+                            Ahmedabad-382350, India.</p>
                     </div>
 
                 </div>
