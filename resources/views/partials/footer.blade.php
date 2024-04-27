@@ -116,7 +116,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="onovo-social-link onovo-hover-2" href="https://www.linkedin.com/company/nothingedge-technology" title="LinkedIn"
+                                <a class="onovo-social-link onovo-hover-2"
+                                    href="https://www.linkedin.com/company/nothingedge-technology" title="LinkedIn"
                                     target="_blank">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
