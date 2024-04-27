@@ -154,15 +154,14 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-2-2-1080x800.jpg"
-                                                alt="Market Economy Graphics" />
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Vue.js.png" alt="Vue.js banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Market Economy Graphics</span>
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Vue.js</span>
                                             </a>
                                         </h5>
                                         <div class="text">
