@@ -175,22 +175,334 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-3-1080x800.jpg" alt="Flower Store Mobile App" />
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/React.js.png" alt="React banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Flower Store Mobile App</span>
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>React</span>
                                             </a>
                                         </h5>
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>interactive <em>,</em>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Angular.js.png" alt="Angular banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Angular</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/JavaScript.png" alt="JavaScript banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>JavaScript</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/TypeScript.png" alt="TypeScript banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>TypeScript</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Nuxt.js.png" alt="Nuxt.js banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Nuxt.js</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Next.js.png" alt="Next.js banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Next.js</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Tailwind.png" alt="Tailwind banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Tailwind</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Vite.png" alt="Vite banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Vite</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Bootstrap.png" alt="Bootstrap banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Bootstrap</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>frontend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Laravel.png" alt="Laravel banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Laravel</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>backend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/NodeJs.png" alt="NodeJs banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>NodeJs</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>backend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Java.png" alt="Java banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Java</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>backend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/NetCore.png" alt=".NET Core banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>.NET Core</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>backend <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Express.js.png" alt="ExpressJS banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>ExpressJS</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>backend <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
@@ -227,7 +539,8 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-2-1080x800.jpg" alt="Headphones 3D Rendering" />
+                                            <img src="assets/images/project-2-1080x800.jpg"
+                                                alt="Headphones 3D Rendering" />
                                         </a>
                                     </div>
                                     <div class="desc">
