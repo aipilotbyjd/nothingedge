@@ -17,7 +17,7 @@
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="#">Home </a>
                     </li>
                     <li class="current">
                         <span>Technologies </span>
@@ -130,19 +130,236 @@
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-n01-3-1080x800.jpg" alt="Museums Art Concept" />
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Figma.png" alt="Figma" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Museums Art Concept</span>
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Figma</span>
                                             </a>
                                         </h5>
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>branding <em>,</em>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Sketch.png" alt="Sketch" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Sketch</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Adobe XD.png" alt="Adobe XD" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Adobe XD</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Creative Cloud.png"
+                                                alt="Adobe Creative Cloud" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Adobe Creative Cloud</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Photoshop.png" alt="Adobe Photoshop" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Adobe Photoshop</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Illustrator.png" alt="Illustrator" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Illustrator</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/After Effects.png" alt="After Effects" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>After Effects</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Premiere Pro.png" alt="Premiere Pro" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Premiere Pro</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Blender.png" alt="Blender" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Blender</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Framer.png" alt="Framer" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Framer</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>design <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
