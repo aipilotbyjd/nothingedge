@@ -7,9 +7,8 @@
 
                     <!-- Description -->
                     <div class="onovo-text onovo-text-white">
-                        <h5>Information</h5>
-                        <p style="opacity: 0.6;">From the moment our company was founded, we have helped our
-                            clients find exceptional solutions <strong>for their businesses</strong>. </p>
+                        <h5>NothingEdge Technology</h5>
+                        <p style="opacity: 0.6;">Ready to Wow Your Customers?<a href="{{ route('contact-us') }}" class="onovo-lnk lnk--white" target="_blank"> Get a Free Quote </a></p>
                     </div>
 
                 </div>

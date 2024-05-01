@@ -85,24 +85,26 @@
                         <ul>
                             <li>
                                 <h5>Contact Info</h5>
-                                <a href="tel:+10204302973" class="onovo-lnk lnk--white" target="_blank">+ 1 (020) 430
-                                    2973</a><br>
-                                <a href="mailto:username@domain.com" class="onovo-lnk lnk--white"
-                                    target="_blank">username@domain.com</a>
+                                <a href="tel:+918200737927" class="onovo-lnk lnk--white" target="_blank">+91
+                                    8200737927</a><br>
+                                <a href="mailto:contact@nothonedge.com" class="onovo-lnk lnk--white"
+                                    target="_blank">contact@nothonedge.com</a>
                                 <div class="onovo-social-1 onovo-social-active" style="margin-top: 10px;">
                                     <ul>
                                         <li>
-                                            <a href="#" class="onovo-social-link onovo-hover-2">
+                                            <a href="#" target="_blank" class="onovo-social-link onovo-hover-2">
                                                 <i class="icon fab fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="onovo-social-link onovo-hover-2">
+                                            <a href="https://twitter.com/NothingEdge_07" target="_blank"
+                                                class="onovo-social-link onovo-hover-2">
                                                 <i class="icon fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="onovo-social-link onovo-hover-2">
+                                            <a href="https://www.linkedin.com/company/nothingedge-technology"
+                                                target="_blank" class="onovo-social-link onovo-hover-2">
                                                 <i class="icon fab fa-linkedin"></i>
                                             </a>
                                         </li>
@@ -146,20 +148,13 @@
                 <!--faq item-->
                 <div class="onovo-faq-item onovo-collapse-item">
                     <h5 class="title onovo-collapse-btn">
-                        <span> Secure Management and Workforce? </span>
+                        <span> How long does it take to build a website? </span>
                         <i class="arrow"></i>
                     </h5>
                     <div class="onovo-text" style="display: none;">
                         <div>
-                            <p>Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class
-                                apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio
-                                sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu
-                                a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.</p>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectet</li>
-                                <li>Duis sed odio sit amet nibh vulputate cursus</li>
-                                <li>Duis sed odio sit amet nibh vulputate</li>
-                            </ul>
+                            <p>The timeline varies based on the project scope, but a basic website can take 4-8 weeks while
+                                more complex sites with custom functionality can take 2-6 months..</p>
                         </div>
                     </div>
                 </div>
@@ -167,20 +162,13 @@
                 <!--faq item-->
                 <div class="onovo-faq-item onovo-collapse-item">
                     <h5 class="title onovo-collapse-btn">
-                        <span> Logistics Workforce on Track? </span>
+                        <span> What is your design process? </span>
                         <i class="arrow"></i>
                     </h5>
                     <div class="onovo-text" style="display: none;">
                         <div>
-                            <p>Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class
-                                apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio
-                                sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu
-                                a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.</p>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectet</li>
-                                <li>Duis sed odio sit amet nibh vulputate cursus</li>
-                                <li>Duis sed odio sit amet nibh vulputate</li>
-                            </ul>
+                            <p>We start with an in-depth discovery phase to understand your goals, target audience, and
+                                branding. Then we create wireframes, design mockups, and develop your custom website.</p>
                         </div>
                     </div>
                 </div>
@@ -188,20 +176,13 @@
                 <!--faq item-->
                 <div class="onovo-faq-item onovo-collapse-item">
                     <h5 class="title onovo-collapse-btn">
-                        <span> Online Courses &amp; Certification? </span>
+                        <span> Do you offer website maintenance and updates? </span>
                         <i class="arrow"></i>
                     </h5>
                     <div class="onovo-text" style="display: none;">
                         <div>
-                            <p>Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class
-                                apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio
-                                sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu
-                                a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.</p>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectet</li>
-                                <li>Duis sed odio sit amet nibh vulputate cursus</li>
-                                <li>Duis sed odio sit amet nibh vulputate</li>
-                            </ul>
+                            <p>Yes, we provide ongoing maintenance plans to keep your site updated with the latest security
+                                patches, plugin updates, and content additions.</p>
                         </div>
                     </div>
                 </div>
@@ -209,24 +190,72 @@
                 <!--faq item-->
                 <div class="onovo-faq-item onovo-collapse-item">
                     <h5 class="title onovo-collapse-btn">
-                        <span> Figures and data representative of an organization's? </span>
+                        <span> How much does web design/development cost?</span>
                         <i class="arrow"></i>
                     </h5>
                     <div class="onovo-text" style="display: none;">
                         <div>
-                            <p>Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class
-                                apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio
-                                sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu
-                                a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.</p>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet, consectet</li>
-                                <li>Duis sed odio sit amet nibh vulputate cursus</li>
-                                <li>Duis sed odio sit amet nibh vulputate</li>
-                            </ul>
+                            <p>Pricing depends on project requirements but typically ranges from $1,000 to $25,000+ for a
+                                custom website. We provide detailed quotes after the discovery phase.</p>
                         </div>
                     </div>
                 </div>
 
+                <!--faq item-->
+                <div class="onovo-faq-item onovo-collapse-item">
+                    <h5 class="title onovo-collapse-btn">
+                        <span> What platforms and technologies do you use?</span>
+                        <i class="arrow"></i>
+                    </h5>
+                    <div class="onovo-text" style="display: none;">
+                        <div>
+                            <p>We develop on WordPress, Shopify, and custom coding frameworks like React.js. We use HTML,
+                                CSS, JavaScript, PHP and build with SEO and mobile responsiveness in mind.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--faq item-->
+                <div class="onovo-faq-item onovo-collapse-item">
+                    <h5 class="title onovo-collapse-btn">
+                        <span> Will my new website be mobile-friendly?</span>
+                        <i class="arrow"></i>
+                    </h5>
+                    <div class="onovo-text" style="display: none;">
+                        <div>
+                            <p>Absolutely. We build all websites with a mobile-first, responsive approach to ensure an
+                                optimal experience across devices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--faq item-->
+                <div class="onovo-faq-item onovo-collapse-item">
+                    <h5 class="title onovo-collapse-btn">
+                        <span> Do you offer ecommerce website development?</span>
+                        <i class="arrow"></i>
+                    </h5>
+                    <div class="onovo-text" style="display: none;">
+                        <div>
+                            <p>Yes, we have experience building secure, user-friendly ecommerce sites on platforms like
+                                WooCommerce, Shopify, and custom solutions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--faq item-->
+                <div class="onovo-faq-item onovo-collapse-item">
+                    <h5 class="title onovo-collapse-btn">
+                        <span> How does the hosting and domain process work?</span>
+                        <i class="arrow"></i>
+                    </h5>
+                    <div class="onovo-text" style="display: none;">
+                        <div>
+                            <p> We can handle purchasing a new domain and setting up hosting for your site, or transfer an
+                                existing one.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
