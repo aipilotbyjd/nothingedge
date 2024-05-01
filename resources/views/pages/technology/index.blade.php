@@ -17,7 +17,7 @@
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="#">Home </a>
+                        <a href="{{ route('home') }}">Home </a>
                     </li>
                     <li class="current">
                         <span>Technologies </span>
@@ -81,11 +81,11 @@
                                             <span>Database</span>
                                         </button>
                                     </li>
-                                    {{-- <li>
+                                    <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".plugins">
                                             <span>Plugins</span>
                                         </button>
-                                    </li> --}}
+                                    </li>
                                     <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".cloud">
                                             <span>Cloud</span>
@@ -96,17 +96,17 @@
                                             <span>Deployment</span>
                                         </button>
                                     </li>
-                                    {{-- <li>
+                                    <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".erp">
                                             <span>ERP</span>
                                         </button>
                                     </li>
-                                    {{-- <li>
+                                    <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".qa">
                                             <span>QA</span>
                                         </button>
-                                    </li> --}}
-                                    {{-- <li>
+                                    </li>
+                                    <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".framework-libraries">
                                             <span>Frameworks & Libraries</span>
                                         </button>
@@ -115,7 +115,7 @@
                                         <button class="onovo-filter-item" type="button" data-filter=".no-code-apps">
                                             <span>No Code Apps</span>
                                         </button>
-                                    </li> --}}
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -993,6 +993,126 @@
                             </div>
 
                             <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Selenium.png" alt="Selenium Logo" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Selenium</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>qa <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Jest.png" alt="Jest Logo" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Jest</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>qa <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Mocha.png" alt="Mocha Logo" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Mocha</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>qa <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Chai.png" alt="Chai Logo" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Chai</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>qa <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Cypress.png" alt="Cypress Logo" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Cypress</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>qa <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
@@ -1401,6 +1521,102 @@
                             </div>
 
                             <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/NodeJs.png" alt="Node.js icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Node.js</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>plugins <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/JavaScript.png" alt="JavaScript icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>JavaScript</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>plugins <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/TypeScript.png" alt="TypeScript icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>TypeScript</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>plugins <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/ECMAScript.png" alt="ECMAScript icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>ECMAScript</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>plugins <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
                             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cloud ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
@@ -1781,6 +1997,30 @@
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
                                                 <span>deployment <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col erp ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Odoo.png" alt="Odoo icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Odoo</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>erp <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
