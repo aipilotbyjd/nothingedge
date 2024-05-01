@@ -106,7 +106,7 @@
                                             <span>QA</span>
                                         </button>
                                     </li> --}}
-                                    {{-- <li>
+                                    <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".framework-libraries">
                                             <span>Frameworks & Libraries</span>
                                         </button>
@@ -115,7 +115,7 @@
                                         <button class="onovo-filter-item" type="button" data-filter=".no-code-apps">
                                             <span>No Code Apps</span>
                                         </button>
-                                    </li> --}}
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -1399,6 +1399,272 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a class="onovo-hover-3">
+                                            <img src="assets/images/technology/Express.js.png" alt="ExpressJs icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>ExpressJs</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a class="onovo-hover-3">
+                                            <img src="assets/images/technology/GraphQL.png" alt="GraphQL icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>GraphQL</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a class="onovo-hover-3">
+                                            <img src="assets/images/technology/Socket.IO.png" alt="Soket.io icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Soket.io</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a class="onovo-hover-3">
+                                            <img src="assets/images/technology/Babel.png" alt="Babel icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Babel</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a class="onovo-hover-3">
+                                            <img src="assets/images/technology/WebSocket.png" alt="WebSocket icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>WebSocket</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a class="onovo-hover-3">
+                                            <img src="assets/images/technology/Webpack.png" alt="Webpack icon" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Webpack</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Item -->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/NestJs.png" alt="Nest.js banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>NestJs</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Axios.png" alt="Axios banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>Axios</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/AdonisJS.png" alt="AdonisJS banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="#">
+                                                <span data-splitting data-onovo-scroll>AdonisJS</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Frameworks & Libraries <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col no-code-apps ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Bubble.png" alt="Bubble banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Bubble</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>No-Code Apps <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col no-code-apps ">
+                                <div class="onovo-portfolio-item">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="#" class="onovo-hover-3">
+                                            <img src="assets/images/technology/Webflow.png" alt="Webflow banner" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h5 class="title">
+                                            <a href="#">
+                                                <span data-splitting data-onovo-scroll>Webflow</span>
+                                            </a>
+                                        </h5>
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>No-Code Apps <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <!-- Load More -->
 
