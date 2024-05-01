@@ -283,15 +283,13 @@
                         </div>
                         <h3 class="title">
                             <a href="project-detail.html">
-                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Explore our showcase website,
-                                    highlighting our proficiency in web development through sleek design and seamless
-                                    functionality.
+                                <span class="onovo-lnk" data-splitting data-onovo-scroll>All fix home
                                 </span>
                             </a>
                         </h3>
                         <div class="image" data-onovo-overlay data-onovo-scroll>
                             <span class="img"
-                                style="background-image: url(assets/images/project-n01-3-1200x900.jpg);"></span>
+                                style="background-image: url(assets/images/project/all-fix-home.png);"></span>
                         </div>
                     </div>
 
@@ -306,13 +304,12 @@
                         </div>
                         <h3 class="title">
                             <a href="project-detail.html">
-                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Market Economy
-                                    Graphics </span>
+                                <span class="onovo-lnk" data-splitting data-onovo-scroll>Baazigar News</span>
                             </a>
                         </h3>
                         <div class="image" data-onovo-overlay data-onovo-scroll>
                             <span class="img"
-                                style="background-image: url(assets/images/project-2-2-1200x982.jpg);"></span>
+                                style="background-image: url(assets/images/project/baazigar-news.png);"></span>
                         </div>
                     </div>
 
@@ -327,13 +324,12 @@
                         </div>
                         <h3 class="title">
                             <a href="project-detail.html">
-                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Headphones 3D
-                                    Rendering </span>
+                                <span class="onovo-lnk" data-splitting data-onovo-scroll>Love N Song</span>
                             </a>
                         </h3>
                         <div class="image" data-onovo-overlay data-onovo-scroll>
                             <span class="img"
-                                style="background-image: url(assets/images/project-2-1200x988.jpg);"></span>
+                                style="background-image: url(assets/images/project/love-song.png);"></span>
                         </div>
                     </div>
 
@@ -348,12 +344,12 @@
                         </div>
                         <h3 class="title">
                             <a href="project-detail.html">
-                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Business Card Logo
-                                </span>
+                                <span class="onovo-lnk" data-splitting data-onovo-scroll>Furniture Rental</span>
                             </a>
                         </h3>
                         <div class="image" data-onovo-overlay data-onovo-scroll>
-                            <span class="img" style="background-image: url(assets/images/project-4.jpg);"></span>
+                            <span class="img"
+                                style="background-image: url(assets/images/project/furniture.png);"></span>
                         </div>
                     </div>
 
@@ -368,13 +364,12 @@
                         </div>
                         <h3 class="title">
                             <a href="project-detail.html">
-                                <span class="onovo-lnk" data-splitting data-onovo-scroll> Flower Store Mobile
-                                    App </span>
+                                <span class="onovo-lnk" data-splitting data-onovo-scroll>Kotak loggisticss</span>
                             </a>
                         </h3>
                         <div class="image" data-onovo-overlay data-onovo-scroll>
                             <span class="img"
-                                style="background-image: url(assets/images/project-3-1200x750.jpg);"></span>
+                            style="background-image: url(assets/images/project/loggisticss.png);"></span>
                         </div>
                     </div>
 
@@ -792,7 +787,7 @@
                 <!--number item-->
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-center">
                     <div class="onovo-counter">
-                        <div class="num onovo-text-white js-counter" data-end-value="10">0</div>
+                        <div class="num onovo-text-white js-counter" data-end-value="20">0</div>
                         <div class="num-after onovo-text-white"> + </div>
                         <div class="label"> Completed projects </div>
                     </div>
@@ -875,8 +870,7 @@
                                 </li>
                                 <li>
                                     <a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn"
-                                        href="https://www.linkedin.com/company/nothingedge-technology"
-                                        target="_blank">
+                                        href="https://www.linkedin.com/company/nothingedge-technology" target="_blank">
                                         <i aria-hidden="true" class="fab fa-linkedin-in"></i>
                                         <span> LinkedIn </span>
                                     </a>

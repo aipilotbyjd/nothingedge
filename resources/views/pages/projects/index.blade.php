@@ -80,18 +80,18 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-n01-3-1080x800.jpg" alt="Museums Art Concept" />
+                                            <img src="assets/images/project-n01-3-1080x800.jpg" alt="Go4Marketing" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Museums Art Concept</span>
+                                                <span data-splitting data-onovo-scroll>Go4Marketing</span>
                                             </a>
                                         </h5>
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>branding <em>,</em>
+                                                <span>Laravel <em>,</em>
                                                 </span>
                                             </div>
                                         </div>

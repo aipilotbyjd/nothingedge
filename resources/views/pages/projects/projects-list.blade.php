@@ -51,8 +51,8 @@
                                         </button>
                                     </li>
                                     <li>
-                                        <button class="onovo-filter-item" type="button" data-filter=".interactive">
-                                            <span>Interactive</span>
+                                        <button class="onovo-filter-item" type="button" data-filter=".ecommerce">
+                                            <span>Ecommerce</span>
                                         </button>
                                     </li>
                                     <li>
@@ -76,23 +76,24 @@
                         <div class="row onovo-portfolio-items">
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col branding ">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col marketing ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-n01-3-1080x800.jpg" alt="Museums Art Concept" />
+                                            <img src="{{ asset('assets/images/project/go4marketing.png') }}"
+                                                alt="Go4Marketing" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>branding <em>,</em>
+                                                <span>Laravel <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Museums Art Concept</span>
+                                                <span data-splitting data-onovo-scroll>Go4Marketing</span>
                                             </a>
                                         </h5>
                                         <div class="onovo-text">
@@ -100,16 +101,16 @@
                                                 <ul data-splitting="" data-onovo-scroll="">
                                                     <li>
                                                         <strong>Project Type</strong>
-                                                        <br /> Art Direction, Branding, Interactive Design
+                                                        <br /> Marketing
                                                     </li>
-                                                    <li>
+                                                    {{-- <li>
                                                         <strong>Team</strong>
                                                         <br /> Thomas Jackki
                                                     </li>
                                                     <li>
                                                         <strong>Date</strong>
                                                         <br /> 2021-2023
-                                                    </li>
+                                                    </li> --}}
                                                 </ul>
                                             </div>
                                         </div>
@@ -118,23 +119,24 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col interactive ">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-3-1080x800.jpg" alt="Flower Store Mobile App" />
+                                            <img src="{{ asset('assets/images/project/furniture.png') }}"
+                                                alt="Furniture Rental" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>interactive <em>,</em>
+                                                <span>wordpress <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Flower Store Mobile App</span>
+                                                <span data-splitting data-onovo-scroll>Furniture Rental</span>
                                             </a>
                                         </h5>
                                         <div class="onovo-text">
@@ -142,15 +144,7 @@
                                                 <ul data-splitting="" data-onovo-scroll="">
                                                     <li>
                                                         <strong>Project Type</strong>
-                                                        <br /> UI/UX Design, Mobile Apps, Interactive Design
-                                                    </li>
-                                                    <li>
-                                                        <strong>Team</strong>
-                                                        <br /> Alexander Bravo
-                                                    </li>
-                                                    <li>
-                                                        <strong>Date</strong>
-                                                        <br /> 2021-2023
+                                                        <br /> Furniture
                                                     </li>
                                                 </ul>
                                             </div>
@@ -164,19 +158,19 @@
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-4-1080x800.jpg" alt="Business Card Logo" />
+                                            <img src="{{ asset('assets/images/project/jivandhara.png') }}"
+                                                alt="Jivandhara Ginning ERP" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>design <em>,</em>
-                                                </span>
+                                                <span>Core PHP</span>
                                             </div>
                                         </div>
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Business Card Logo</span>
+                                                <span data-splitting data-onovo-scroll>Jivandhara Ginning ERP</span>
                                             </a>
                                         </h5>
                                         <div class="onovo-text">
@@ -184,15 +178,7 @@
                                                 <ul data-splitting="" data-onovo-scroll="">
                                                     <li>
                                                         <strong>Project Type</strong>
-                                                        <br /> UI/UX Design, Branding, Logo Design
-                                                    </li>
-                                                    <li>
-                                                        <strong>Team</strong>
-                                                        <br /> Steven Morrison
-                                                    </li>
-                                                    <li>
-                                                        <strong>Date</strong>
-                                                        <br /> 2021-2023
+                                                        <br />Ginning ERP
                                                     </li>
                                                 </ul>
                                             </div>
@@ -206,20 +192,19 @@
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-2-2-1080x800.jpg"
-                                                alt="Market Economy Graphics" />
+                                            <img src="{{ asset('assets/images/project/football-score.png') }}" alt="Football Live Score" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>marketing <em>,</em>
+                                                <span>Laravel <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Market Economy Graphics</span>
+                                                <span data-splitting data-onovo-scroll>Football Live Score</span>
                                             </a>
                                         </h5>
                                         <div class="onovo-text">
@@ -227,15 +212,7 @@
                                                 <ul data-splitting="" data-onovo-scroll="">
                                                     <li>
                                                         <strong>Project Type</strong>
-                                                        <br /> Marketing, Rendering, 3D Design
-                                                    </li>
-                                                    <li>
-                                                        <strong>Team</strong>
-                                                        <br /> Lina Watson
-                                                    </li>
-                                                    <li>
-                                                        <strong>Date</strong>
-                                                        <br /> 2021-2023
+                                                        <br /> Sport
                                                     </li>
                                                 </ul>
                                             </div>
@@ -249,20 +226,20 @@
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-2-1080x800.jpg"
-                                                alt="Headphones 3D Rendering" />
+                                            <img src="{{ asset('assets/images/project/love-song.png') }}"
+                                                alt="Love N Song" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>design <em>,</em>
+                                                <span>MVC PHP <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Headphones 3D Rendering</span>
+                                                <span data-splitting data-onovo-scroll>Love N Song</span>
                                             </a>
                                         </h5>
                                         <div class="onovo-text">
@@ -270,15 +247,7 @@
                                                 <ul data-splitting="" data-onovo-scroll="">
                                                     <li>
                                                         <strong>Project Type</strong>
-                                                        <br /> Marketing, Rendering, 3D Design
-                                                    </li>
-                                                    <li>
-                                                        <strong>Team</strong>
-                                                        <br /> Lina Watson
-                                                    </li>
-                                                    <li>
-                                                        <strong>Date</strong>
-                                                        <br /> 2021-2023
+                                                        <br /> Song
                                                     </li>
                                                 </ul>
                                             </div>
@@ -292,20 +261,20 @@
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
-                                            <img src="assets/images/project-1-1080x800.jpg"
-                                                alt="Circle Cardboard Concept" />
+                                            <img src="{{ asset('assets/images/project/dilocation.png') }}"
+                                                alt="Dilocation" />
                                         </a>
                                     </div>
                                     <div class="desc">
                                         <div class="text">
                                             <div data-splitting data-onovo-scroll>
-                                                <span>branding <em>,</em>
+                                                <span>PHP <em>,</em>
                                                 </span>
                                             </div>
                                         </div>
                                         <h5 class="title">
                                             <a class="onovo-lnk" href="project-detail.html">
-                                                <span data-splitting data-onovo-scroll>Circle Cardboard Concept</span>
+                                                <span data-splitting data-onovo-scroll>Dilocation</span>
                                             </a>
                                         </h5>
                                         <div class="onovo-text">
@@ -313,15 +282,7 @@
                                                 <ul data-splitting="" data-onovo-scroll="">
                                                     <li>
                                                         <strong>Project Type</strong>
-                                                        <br /> Illustration, Branding, Poster Design
-                                                    </li>
-                                                    <li>
-                                                        <strong>Team</strong>
-                                                        <br /> Lina Watson
-                                                    </li>
-                                                    <li>
-                                                        <strong>Date</strong>
-                                                        <br /> 2021-2023
+                                                        <br /> Dilocation
                                                     </li>
                                                 </ul>
                                             </div>
@@ -329,6 +290,215 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col branding ">
+                                <div class="onovo-portfolio-item onovo-portfolio-item-list">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="project-detail.html" class="onovo-hover-3">
+                                            <img src="{{ asset('assets/images/project/baazigar-news.png') }}"
+                                                alt="Baazigar News" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>CodeIgniter <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="project-detail.html">
+                                                <span data-splitting data-onovo-scroll>Baazigar News</span>
+                                            </a>
+                                        </h5>
+                                        <div class="onovo-text">
+                                            <div>
+                                                <ul data-splitting="" data-onovo-scroll="">
+                                                    <li>
+                                                        <strong>Project Type</strong>
+                                                        <br /> News
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col branding ">
+                                <div class="onovo-portfolio-item onovo-portfolio-item-list">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="project-detail.html" class="onovo-hover-3">
+                                            <img src="{{ asset('assets/images/project/all-fix-home.png') }}"
+                                                alt="All fix home" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Laravel <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="project-detail.html">
+                                                <span data-splitting data-onovo-scroll>All fix home</span>
+                                            </a>
+                                        </h5>
+                                        <div class="onovo-text">
+                                            <div>
+                                                <ul data-splitting="" data-onovo-scroll="">
+                                                    <li>
+                                                        <strong>Project Type</strong>
+                                                        <br /> Home
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
+                                <div class="onovo-portfolio-item onovo-portfolio-item-list">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="project-detail.html" class="onovo-hover-3">
+                                            <img src="{{ asset('assets/images/project/cyanique.png') }}" alt="Cyanique" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Wordpress <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="project-detail.html">
+                                                <span data-splitting data-onovo-scroll>Cyanique</span>
+                                            </a>
+                                        </h5>
+                                        <div class="onovo-text">
+                                            <div>
+                                                <ul data-splitting="" data-onovo-scroll="">
+                                                    <li>
+                                                        <strong>Project Type</strong>
+                                                        <br /> Furniture
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
+                                <div class="onovo-portfolio-item onovo-portfolio-item-list">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="project-detail.html" class="onovo-hover-3">
+                                            <img src="{{ asset('assets/images/project/e-shop.png') }}" alt="e-shop" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Wordpress <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="project-detail.html">
+                                                <span data-splitting data-onovo-scroll>Shop</span>
+                                            </a>
+                                        </h5>
+                                        <div class="onovo-text">
+                                            <div>
+                                                <ul data-splitting="" data-onovo-scroll="">
+                                                    <li>
+                                                        <strong>Project Type</strong>
+                                                        <br /> Shop
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
+                                <div class="onovo-portfolio-item onovo-portfolio-item-list">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="project-detail.html" class="onovo-hover-3">
+                                            <img src="{{ asset('assets/images/project/loggisticss.png') }}"
+                                                alt="loggisticss" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Wordpress <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="project-detail.html">
+                                                <span data-splitting data-onovo-scroll>Kotak loggisticss</span>
+                                            </a>
+                                        </h5>
+                                        <div class="onovo-text">
+                                            <div>
+                                                <ul data-splitting="" data-onovo-scroll="">
+                                                    <li>
+                                                        <strong>Project Type</strong>
+                                                        <br /> Loggisticss
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--project item-->
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
+                                <div class="onovo-portfolio-item onovo-portfolio-item-list">
+                                    <div class="image" data-onovo-overlay data-onovo-scroll>
+                                        <a href="project-detail.html" class="onovo-hover-3">
+                                            <img src="{{ asset('assets/images/project/nirvah-consulting.png') }}"
+                                                alt="loggisticss" />
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <div class="text">
+                                            <div data-splitting data-onovo-scroll>
+                                                <span>Wordpress <em>,</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <h5 class="title">
+                                            <a class="onovo-lnk" href="project-detail.html">
+                                                <span data-splitting data-onovo-scroll>Nirvah consulting</span>
+                                            </a>
+                                        </h5>
+                                        <div class="onovo-text">
+                                            <div>
+                                                <ul data-splitting="" data-onovo-scroll="">
+                                                    <li>
+                                                        <strong>Project Type</strong>
+                                                        <br /> Consulting
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 
                         </div>
 
