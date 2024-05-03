@@ -8,6 +8,8 @@ use App\Http\Controllers\ProjectsPageController;
 use App\Http\Controllers\ServicesPageController;
 use App\Http\Controllers\TeamPageController;
 use App\Http\Controllers\TechnologyController;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -41,3 +43,24 @@ Route::get('web-application-architecture', [BlogPageController::class, 'WebAppli
 Route::get('/projects', [ProjectsPageController::class, 'index'])->name('projects');
 Route::get('/technology', [TechnologyController::class, 'index'])->name('technology');
 
+
+Route::get('/clear-cache', function () {
+    Artisan::call('optimize');
+    Artisan::call('route:clear');
+    Artisan::call('config:clear');
+    Artisan::call('view:clear');
+
+    return 'Cache cleared and optimized successfully.';
+});
+
+Route::get('/migrate', function (Request $request) {
+    $username = $request->input('username');
+    $password = $request->input('password');
+
+    if ($username === 'admin' && $password === 'admin@123') {
+        Artisan::call('migrate');
+        return 'Migration completed successfully.';
+    } else {
+        return 'Authentication failed.';
+    }
+});
