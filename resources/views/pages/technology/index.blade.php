@@ -756,7 +756,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/NestJs.png" alt="Nest.js banner" />
+                                            <img src="assets/images/technology/NestJS.png" alt="Nest.js banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
