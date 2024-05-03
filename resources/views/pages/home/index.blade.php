@@ -76,7 +76,7 @@
                     <div class="onovo-service-grid-item onovo-hover-1 active active--default">
                         <div class="image">
                             <a href="{{ route('app-development-services-detail') }}">
-                                <img decoding="async" src="{{ asset('assets/images/serv-icon2.png') }}" alt="Websites" />
+                                <img decoding="async" src="{{ asset('assets/images/serv-icon6.png') }}" alt="Websites" />
                             </a>
                         </div>
                         <h5 class="onovo-title-3">
