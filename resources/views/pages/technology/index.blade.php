@@ -81,22 +81,22 @@
                                             <span>Database</span>
                                         </button>
                                     </li>
-                                    <li>
+                                    {{-- <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".plugins">
                                             <span>Plugins</span>
                                         </button>
-                                    </li>
-                                    <li>
+                                    </li> --}}
+                                    {{-- <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".cloud">
                                             <span>Cloud</span>
                                         </button>
-                                    </li>
-                                    <li>
+                                    </li> --}}
+                                    {{-- <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".deployment">
                                             <span>Deployment</span>
                                         </button>
-                                    </li>
-                                    <li>
+                                    </li> --}}
+                                    {{-- <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".erp">
                                             <span>ERP</span>
                                         </button>
@@ -105,8 +105,8 @@
                                         <button class="onovo-filter-item" type="button" data-filter=".qa">
                                             <span>QA</span>
                                         </button>
-                                    </li>
-                                    <li>
+                                    </li> --}}
+                                    {{-- <li>
                                         <button class="onovo-filter-item" type="button" data-filter=".framework-libraries">
                                             <span>Frameworks & Libraries</span>
                                         </button>
@@ -115,7 +115,7 @@
                                         <button class="onovo-filter-item" type="button" data-filter=".no-code-apps">
                                             <span>No Code Apps</span>
                                         </button>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                         </div>
