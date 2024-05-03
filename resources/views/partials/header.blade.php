@@ -7,8 +7,8 @@
                     <!-- Logo -->
                     <div class="onovo-logo-image" style="max-width: 200px">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/images/main_logo.png') }}" alt="Onovo" />
-                            <img class="logo--white" src="{{ asset('assets/images/main_logo.png') }}" alt="Onovo" />
+                            <img src="{{ url('assets/images/main_logo.png') }}" alt="Onovo" />
+                            <img class="logo--white" src="{{ url('assets/images/main_logo.png') }}" alt="Onovo" />
                         </a>
                     </div>
 
