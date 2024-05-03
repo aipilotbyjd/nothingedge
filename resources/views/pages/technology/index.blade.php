@@ -372,7 +372,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/Vue.js.png" alt="Vue.js banner" />
+                                            <img src="assets/images/technology/VueJS.png" alt="Vue.js banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
@@ -396,7 +396,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/React.js.png" alt="React banner" />
+                                            <img src="assets/images/technology/ReactJS.png" alt="React banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
@@ -420,7 +420,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/Angular.js.png" alt="Angular banner" />
+                                            <img src="assets/images/technology/AngularJS.png" alt="Angular banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
@@ -492,7 +492,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/Nuxt.js.png" alt="Nuxt.js banner" />
+                                            <img src="assets/images/technology/NuxtJS.png" alt="Nuxt.js banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
@@ -516,7 +516,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/Next.js.png" alt="Next.js banner" />
+                                            <img src="assets/images/technology/NextJS.png" alt="Next.js banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
@@ -708,7 +708,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
-                                            <img src="assets/images/technology/Express.js.png" alt="ExpressJS banner" />
+                                            <img src="assets/images/technology/ExpressJS.png" alt="ExpressJS banner" />
                                         </a>
                                     </div>
                                     <div class="desc">
@@ -2033,7 +2033,7 @@
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
-                                            <img src="assets/images/technology/Express.js.png" alt="ExpressJs icon" />
+                                            <img src="assets/images/technology/ExpressJS.png" alt="ExpressJs icon" />
                                         </a>
                                     </div>
                                     <div class="desc">
