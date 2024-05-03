@@ -19,6 +19,7 @@ class ContactUsPageController extends Controller
                 'name' => 'required|string|max:50',
                 'email' => 'required|email|max:50',
                 'tel' => 'required|string|max:20',
+                'message' => 'required|string',
             ]);
 
             $contactForm = ContactForm::create($validatedData);
