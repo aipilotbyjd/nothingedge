@@ -10,6 +10,7 @@ use App\Http\Controllers\TeamPageController;
 use App\Http\Controllers\TechnologyController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -58,8 +59,15 @@ Route::get('/migrate', function (Request $request) {
     $password = $request->input('password');
 
     if ($username === 'admin' && $password === 'admin@123') {
-        Artisan::call('migrate');
-        return 'Migration completed successfully.';
+        $exitCode = Artisan::call('migrate', ['--force' => true]);
+
+        if ($exitCode === 0) {
+            return 'Migration completed successfully.';
+        } else {
+            $output = Artisan::output();
+            Log::error('Migration failed: ' . $output);
+            return 'Migration failed. Check the logs for more information.';
+        }
     } else {
         return 'Authentication failed.';
     }
