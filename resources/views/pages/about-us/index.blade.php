@@ -262,14 +262,14 @@
     </section>
 
     <!-- Onovo Team -->
-    <section class="onovo-section gap-top-140 gap-bottom-140">
+    {{-- <section class="onovo-section gap-top-140 gap-bottom-140">
         <div class="container">
 
             <!-- Team items -->
-            <div class="row gap-row align-center">
+            <div class="row gap-row align-center"> --}}
 
                 <!-- Heading -->
-                <div class="col-xs-12 col-sm-12 col-md-11 col-lg-5">
+                {{-- <div class="col-xs-12 col-sm-12 col-md-11 col-lg-5">
                     <div class="onovo-heading align-left">
                         <div class="onovo-subtitle-1">
                             <span> Meet Our Company Family </span>
@@ -362,7 +362,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- <!--team item-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
@@ -490,10 +490,10 @@
                     </a>
                 </div> --}}
 
-            </div>
+            {{-- </div>
 
         </div>
-    </section>
+    </section> --}}
 
     <!-- Onovo Reviews -->
     <section class="onovo-section gap-bottom-140">
