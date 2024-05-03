@@ -430,7 +430,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
+                            {{-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
@@ -462,10 +462,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
+                            {{-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="project-detail.html" class="onovo-hover-3">
@@ -497,7 +497,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
 
 
                         </div>
