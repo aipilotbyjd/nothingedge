@@ -16,6 +16,9 @@
     <!-- CSS STYLES -->
     @include('partials.css')
 
+    <!-- GOOGLE VERIFICATION -->
+    <meta name="google-site-verification" content="ijExtasYTfryyy8L1_ZRs83igPMIYJKM0Yjaf0cG5Gw" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
