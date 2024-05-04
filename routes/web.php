@@ -72,3 +72,13 @@ Route::get('/migrate', function (Request $request) {
         return 'Authentication failed.';
     }
 });
+
+Route::get('/generate-sitemap', function () {
+    $exitCode = Artisan::call('sitemap:generate');
+
+    if ($exitCode === 0) {
+        return 'Sitemap generated successfully.';
+    } else {
+        return 'Sitemap generation failed.';
+    }
+});
