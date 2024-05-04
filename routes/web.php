@@ -46,10 +46,12 @@ Route::get('/technology', [TechnologyController::class, 'index'])->name('technol
 
 
 Route::get('/clear-cache', function () {
-    Artisan::call('optimize');
+    Artisan::call('optimize:clear');
     Artisan::call('route:clear');
     Artisan::call('config:clear');
+    Artisan::call('cache:clear');
     Artisan::call('view:clear');
+    Artisan::call('optimize');
 
     return 'Cache cleared and optimized successfully.';
 });
