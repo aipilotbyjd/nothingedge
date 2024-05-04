@@ -127,7 +127,7 @@
                         <div class="row onovo-portfolio-items">
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -151,7 +151,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -175,7 +175,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -199,7 +199,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -224,7 +224,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -248,7 +248,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -272,7 +272,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -296,7 +296,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -320,7 +320,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -344,7 +344,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col design ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -368,7 +368,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -392,7 +392,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -416,7 +416,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -440,7 +440,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -464,7 +464,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -488,7 +488,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -512,7 +512,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -536,7 +536,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -560,7 +560,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -584,7 +584,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col frontend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col frontend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -608,7 +608,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -632,7 +632,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -656,7 +656,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -680,7 +680,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -704,7 +704,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -728,7 +728,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -752,7 +752,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -776,7 +776,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col backend ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col backend ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -800,7 +800,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col mobile ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col mobile ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -824,7 +824,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col mobile ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col mobile ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -848,7 +848,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col mobile ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col mobile ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -872,7 +872,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col mobile ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col mobile ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -897,7 +897,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col e-commerce ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col e-commerce ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -921,7 +921,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col e-commerce ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col e-commerce ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -945,7 +945,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col e-commerce ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col e-commerce ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -969,7 +969,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col e-commerce ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col e-commerce ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -993,7 +993,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col qa ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1017,7 +1017,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col qa ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1041,7 +1041,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col qa ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1065,7 +1065,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col qa ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1089,7 +1089,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col qa ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col qa ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1113,7 +1113,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1137,7 +1137,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1161,7 +1161,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1185,7 +1185,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1209,7 +1209,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1233,7 +1233,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1257,7 +1257,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1281,7 +1281,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cms ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cms ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1305,7 +1305,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1329,7 +1329,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1353,7 +1353,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1377,7 +1377,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1401,7 +1401,7 @@
                             </div>
 
                             <!-- project item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1425,7 +1425,7 @@
                             </div>
 
                             <!-- project item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1449,7 +1449,7 @@
                             </div>
 
                             <!-- project item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1473,7 +1473,7 @@
                             </div>
 
                             <!-- project item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1497,7 +1497,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col database ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col database ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -1521,7 +1521,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col plugins ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1545,7 +1545,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col plugins ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1569,7 +1569,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col plugins ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1593,7 +1593,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col plugins ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col plugins ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1617,7 +1617,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cloud ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cloud ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1641,7 +1641,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cloud ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cloud ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1665,7 +1665,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cloud ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cloud ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1690,7 +1690,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cloud ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cloud ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1714,7 +1714,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col cloud ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col cloud ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1739,7 +1739,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1763,7 +1763,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1788,7 +1788,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1812,7 +1812,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1836,7 +1836,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1860,7 +1860,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1884,7 +1884,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1908,7 +1908,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1932,7 +1932,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1956,7 +1956,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -1981,7 +1981,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col deployment ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col deployment ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -2005,7 +2005,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col erp ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col erp ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -2029,7 +2029,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -2053,7 +2053,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -2077,7 +2077,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -2101,7 +2101,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -2125,7 +2125,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -2149,7 +2149,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a class="onovo-hover-3">
@@ -2173,7 +2173,7 @@
                             </div>
 
                             <!-- Project Item -->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -2197,7 +2197,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -2221,7 +2221,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col framework-libraries ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col framework-libraries ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -2245,7 +2245,7 @@
                             </div>
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col no-code-apps ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col no-code-apps ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
@@ -2270,7 +2270,7 @@
 
 
                             <!--project item-->
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 onovo-portfolio-col no-code-apps ">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 onovo-portfolio-col no-code-apps ">
                                 <div class="onovo-portfolio-item">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
                                         <a href="#" class="onovo-hover-3">
