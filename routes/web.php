@@ -75,7 +75,7 @@ Route::get('/migrate', function (Request $request) {
 
 Route::get('/generate-sitemap', function () {
     try {
-        set_time_limit(120);
+        set_time_limit(300);
         $exitCode = Artisan::call('sitemap:generate');
 
         if ($exitCode === 0) {
