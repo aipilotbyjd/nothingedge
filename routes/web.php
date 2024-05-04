@@ -74,11 +74,18 @@ Route::get('/migrate', function (Request $request) {
 });
 
 Route::get('/generate-sitemap', function () {
-    $exitCode = Artisan::call('sitemap:generate');
+    try {
+        $exitCode = Artisan::call('sitemap:generate');
 
-    if ($exitCode === 0) {
-        return 'Sitemap generated successfully.';
-    } else {
-        return 'Sitemap generation failed.';
+        if ($exitCode === 0) {
+            return 'Sitemap generated successfully.';
+        } else {
+            $errorMessage = 'Sitemap generation failed. See logs for more information.';
+            Log::error($errorMessage);
+            return $errorMessage;
+        }
+    } catch (\Exception $e) {
+        Log::error('An error occurred during sitemap generation: ' . $e->getMessage());
+        return 'An error occurred during sitemap generation. See logs for more information.';
     }
 });
