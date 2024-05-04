@@ -275,14 +275,14 @@
                     <!--showcase item-->
                     <div class="onovo-showcase-item">
                         <div class="category">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span data-splitting data-onovo-scroll>
                                     <span>Web Development</span>
                                 </span>
                             </a>
                         </div>
                         <h3 class="title">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span class="onovo-lnk" data-splitting data-onovo-scroll>All fix home
                                 </span>
                             </a>
@@ -296,14 +296,14 @@
                     <!--showcase item-->
                     <div class="onovo-showcase-item">
                         <div class="category">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span data-splitting data-onovo-scroll>
                                     <span>App Development</span>
                                 </span>
                             </a>
                         </div>
                         <h3 class="title">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span class="onovo-lnk" data-splitting data-onovo-scroll>Baazigar News</span>
                             </a>
                         </h3>
@@ -316,14 +316,14 @@
                     <!--showcase item-->
                     <div class="onovo-showcase-item">
                         <div class="category">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span data-splitting data-onovo-scroll>
                                     <span>Design</span>
                                 </span>
                             </a>
                         </div>
                         <h3 class="title">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span class="onovo-lnk" data-splitting data-onovo-scroll>Love N Song</span>
                             </a>
                         </h3>
@@ -336,14 +336,14 @@
                     <!--showcase item-->
                     <div class="onovo-showcase-item">
                         <div class="category">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span data-splitting data-onovo-scroll>
                                     <span>Design</span>
                                 </span>
                             </a>
                         </div>
                         <h3 class="title">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span class="onovo-lnk" data-splitting data-onovo-scroll>Furniture Rental</span>
                             </a>
                         </h3>
@@ -356,14 +356,14 @@
                     <!--showcase item-->
                     <div class="onovo-showcase-item">
                         <div class="category">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span data-splitting data-onovo-scroll>
                                     <span>Interactive</span>
                                 </span>
                             </a>
                         </div>
                         <h3 class="title">
-                            <a href="project-detail.html">
+                            <a href="#">
                                 <span class="onovo-lnk" data-splitting data-onovo-scroll>Kotak loggisticss</span>
                             </a>
                         </h3>

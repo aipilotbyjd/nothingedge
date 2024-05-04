@@ -17,7 +17,7 @@
                     <div class="onovo-text onovo-text-white">
                         <h5>Get in Touch</h5>
                         <p style="opacity: 0.6;">111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
-                            Ahmedabad-382350, India. </p>
+                            Ahmedabad-382350,Gujarat,India. </p>
                         <p style="opacity: 0.6;">
                             <a href="tel:+918200737927" class="onovo-lnk lnk--white" target="_blank">+ 91
                                 8200737927</a><br>

@@ -16,7 +16,7 @@
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="{{route('home')}}">Home </a>
                     </li>
                     <li class="current">
                         <span>Projects </span>
@@ -79,7 +79,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col marketing ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/go4marketing.png') }}"
                                                 alt="Go4Marketing" />
                                         </a>
@@ -92,7 +92,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Go4Marketing</span>
                                             </a>
                                         </h5>
@@ -122,7 +122,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/furniture.png') }}"
                                                 alt="Furniture Rental" />
                                         </a>
@@ -135,7 +135,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Furniture Rental</span>
                                             </a>
                                         </h5>
@@ -157,7 +157,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/jivandhara.png') }}"
                                                 alt="Jivandhara Ginning ERP" />
                                         </a>
@@ -169,7 +169,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Jivandhara Ginning ERP</span>
                                             </a>
                                         </h5>
@@ -191,7 +191,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col marketing ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/football-score.png') }}" alt="Football Live Score" />
                                         </a>
                                     </div>
@@ -203,7 +203,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Football Live Score</span>
                                             </a>
                                         </h5>
@@ -225,7 +225,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col design ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/love-song.png') }}"
                                                 alt="Love N Song" />
                                         </a>
@@ -238,7 +238,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Love N Song</span>
                                             </a>
                                         </h5>
@@ -260,7 +260,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col branding ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/dilocation.png') }}"
                                                 alt="Dilocation" />
                                         </a>
@@ -273,7 +273,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Dilocation</span>
                                             </a>
                                         </h5>
@@ -295,7 +295,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col branding ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/baazigar-news.png') }}"
                                                 alt="Baazigar News" />
                                         </a>
@@ -308,7 +308,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Baazigar News</span>
                                             </a>
                                         </h5>
@@ -330,7 +330,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col branding ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/all-fix-home.png') }}"
                                                 alt="All fix home" />
                                         </a>
@@ -343,7 +343,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>All fix home</span>
                                             </a>
                                         </h5>
@@ -365,7 +365,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/cyanique.png') }}" alt="Cyanique" />
                                         </a>
                                     </div>
@@ -377,7 +377,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Cyanique</span>
                                             </a>
                                         </h5>
@@ -399,7 +399,7 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/e-shop.png') }}" alt="e-shop" />
                                         </a>
                                     </div>
@@ -411,7 +411,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Shop</span>
                                             </a>
                                         </h5>
@@ -433,7 +433,7 @@
                             {{-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/loggisticss.png') }}"
                                                 alt="loggisticss" />
                                         </a>
@@ -446,7 +446,7 @@
                                             </div>
                                         </div>
                                         <h5 class="title">
-                                            <a class="onovo-lnk" href="project-detail.html">
+                                            <a class="onovo-lnk" href="#">
                                                 <span data-splitting data-onovo-scroll>Kotak loggisticss</span>
                                             </a>
                                         </h5>
@@ -468,7 +468,7 @@
                             {{-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onovo-portfolio-col ecommerce ">
                                 <div class="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div class="image" data-onovo-overlay data-onovo-scroll>
-                                        <a href="project-detail.html" class="onovo-hover-3">
+                                        <a href="#" class="onovo-hover-3">
                                             <img src="{{ asset('assets/images/project/nirvah-consulting.png') }}"
                                                 alt="loggisticss" />
                                         </a>

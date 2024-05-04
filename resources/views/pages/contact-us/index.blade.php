@@ -16,7 +16,7 @@
             <div class="onovo-breadcrums">
                 <ul>
                     <li>
-                        <a href="index.html">Home </a>
+                        <a href="{{route('home')}}">Home </a>
                     </li>
                     <li class="current">
                         <span>Contact Us</span>
@@ -39,6 +39,8 @@
                     </div>
 
                     <!-- Form -->
+{{--                    <div class="loader"></div>--}}
+
                     <div class="onovo-form">
                         <form id="cform" class="cform" method="post" action="{{ route('contactUs.form') }}">
                             @csrf
@@ -114,11 +116,7 @@
                             <li>
                                 <h5>Houston</h5>
                                 <div>111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
-                                    Ahmedabad-382350, India.</div>
-                            </li>
-                            <li>
-                                <h5>Los Angeles</h5>
-                                <div>2001 N. Clybourn Avenue Suite 202</div>
+                                    Ahmedabad-382350,Gujarat,India.</div>
                             </li>
                         </ul>
                     </div>
@@ -289,12 +287,15 @@
                     tel: 'Please enter your phone number',
                 },
                 submitHandler: function(form) {
+                    $('.loader').show();
+
                     var formData = $(form).serialize();
                     $.ajax({
                         url: $(form).attr('action'),
                         type: $(form).attr('method'),
                         data: formData,
                         success: function(response) {
+                            $('.loader').hide();
                             $(form).hide();
                             $('.alert-success').show();
                         },
