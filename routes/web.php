@@ -46,10 +46,12 @@ Route::get('/technology', [TechnologyController::class, 'index'])->name('technol
 
 
 Route::get('/clear-cache', function () {
-    Artisan::call('optimize');
+    Artisan::call('optimize:clear');
     Artisan::call('route:clear');
     Artisan::call('config:clear');
+    Artisan::call('cache:clear');
     Artisan::call('view:clear');
+    Artisan::call('optimize');
 
     return 'Cache cleared and optimized successfully.';
 });
@@ -70,5 +72,23 @@ Route::get('/migrate', function (Request $request) {
         }
     } else {
         return 'Authentication failed.';
+    }
+});
+
+Route::get('/generate-sitemap', function () {
+    try {
+        set_time_limit(300);
+        $exitCode = Artisan::call('sitemap:generate');
+
+        if ($exitCode === 0) {
+            return 'Sitemap generated successfully.';
+        } else {
+            $errorMessage = 'Sitemap generation failed. See logs for more information.';
+            Log::error($errorMessage);
+            return $errorMessage;
+        }
+    } catch (\Exception $e) {
+        Log::error('An error occurred during sitemap generation: ' . $e->getMessage());
+        return 'An error occurred during sitemap generation. See logs for more information.';
     }
 });

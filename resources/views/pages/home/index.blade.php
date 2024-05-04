@@ -13,7 +13,7 @@
         </div>
         <div class="container">
             <h1 class="title onovo-text-white">
-                <span data-splitting data-onovo-scroll> We Make <br>Everything <span class="onovo-sep word">
+                <span data-splitting data-onovo-scroll> Think Smartly <br>Dominate<br> Completely <span class="onovo-sep word">
                         <i class="sep-img" style="background-image: url(assets/images/title_icon.svg);"></i>
                     </span>
                 </span>
@@ -369,7 +369,7 @@
                         </h3>
                         <div class="image" data-onovo-overlay data-onovo-scroll>
                             <span class="img"
-                            style="background-image: url(assets/images/project/loggisticss.png);"></span>
+                                style="background-image: url(assets/images/project/loggisticss.png);"></span>
                         </div>
                     </div>
 
