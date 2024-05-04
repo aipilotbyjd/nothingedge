@@ -27,8 +27,10 @@ class GenerateSitemap extends Command
      */
     public function handle()
     {
+        $baseUrl = rtrim(url('/'), '/');
+
         // The Crawler
-        SitemapGenerator::create(url('/'))
+        SitemapGenerator::create($baseUrl)
             ->hasCrawled(function (Url $url) {
                 // Some logic here
                 return $url;
