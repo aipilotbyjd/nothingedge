@@ -32,7 +32,7 @@
 
             <!-- Image -->
             <div class="onovo-post-pic" data-onovo-overlay data-onovo-scroll>
-                <img src="{{ asset('assets/images/post1.jpg') }}" alt="what-are-design-patterns" />
+                <img src="{{ asset('assets/images/post1.jpg') }}" alt="what-are-design-patterns"/>
             </div>
 
             <!-- Post-->
@@ -48,54 +48,63 @@
                     <div class="onovo-post-text">
                         <div class="post-content">
                             <h2>What are design patterns?</h2>
-                            <p>🤔 "You might be thinking, 'I am working on so many projects for these many years and I have
-                                integrated all of those perfectly fine.' The truth is yes you did, but think of the below
+                            <p>🤔 "You might be thinking, 'I am working on so many projects for these many years and I
+                                have
+                                integrated all of those perfectly fine.' The truth is yes you did, but think of the
+                                below
                                 statements first.</p>
                             <p>Before understanding what are design patterns, I first want to ask some questions</p>
                             <figure class="alignright">
-                                <img src="assets/images/post3.jpg" alt="" />
+                                <img src="assets/images/post3.jpg" alt=""/>
                             </figure>
-                                <p>🔍 After you have implemented a specific functionality in your project, did you ever
-                                    have to refactor so many things in order to only add one functionality?</p>
-                                <p>🤝 Have you ever worked on a team and spent a huge time only merging the code together
-                                    and less time in feature development?</p>
-                                <p>⏰ After you finish your project and after 2 to 3 weeks, your project manager asks you to
-                                    add functionality and you spend lots of hours only to understand the code you have
-                                    previously written.</p>
-                                <p>🔗 Do you feel your code is coupled too much with each other and a small change in one
-                                    class might end up refactoring all the other classes which do not even implement or use
-                                    those methods?</p>
-                                <p>🔄 Did you refactor the code of your teammate in order to understand it first?</p>
+                            <p>🔍 After you have implemented a specific functionality in your project, did you ever
+                                have to refactor so many things in order to only add one functionality?</p>
+                            <p>🤝 Have you ever worked on a team and spent a huge time only merging the code together
+                                and less time in feature development?</p>
+                            <p>⏰ After you finish your project and after 2 to 3 weeks, your project manager asks you to
+                                add functionality and you spend lots of hours only to understand the code you have
+                                previously written.</p>
+                            <p>🔗 Do you feel your code is coupled too much with each other and a small change in one
+                                class might end up refactoring all the other classes which do not even implement or use
+                                those methods?</p>
+                            <p>🔄 Did you refactor the code of your teammate in order to understand it first?</p>
                             <blockquote>
-                                <p>We are actively engaging with waste to energy operators, concrete manufacturers, and the
-                                    wider construction industry. Our immediate goal is to complete the testing phase." 🏗️
+                                <p>We are actively engaging with waste to energy operators, concrete manufacturers, and
+                                    the
+                                    wider construction industry. Our immediate goal is to complete the testing phase."
+                                    🏗️
                                 </p>
                                 <p>
                                     <cite>Tejas Korat</cite>
                                 </p>
                             </blockquote>
-                            <p>If any of the above was you then it’s perfectly fine, I was there once too. But now that we
-                                know this, design patterns are nothing but the solution to most of the repeating problems
+                            <p>If any of the above was you then it’s perfectly fine, I was there once too. But now that
+                                we
+                                know this, design patterns are nothing but the solution to most of the repeating
+                                problems
                                 which occur in our day-to-day life as a programmer.
                             </p>
                             <p>Global demand for a Circular Economy solution is already high, with global concrete
-                                manufacturers engaging with us to&nbsp; <strong>develop specific testing programms.</strong>
+                                manufacturers engaging with us to&nbsp; <strong>develop specific testing
+                                    programms.</strong>
                             </p>
                             <div class="row gap-row">
                                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                     <a href="assets/images/post1.jpg" class="mfp-image">
-                                        <img src="{{ asset('assets/images/post1.jpg') }}" alt="" />
+                                        <img src="{{ asset('assets/images/post1.jpg') }}" alt=""/>
                                     </a>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                     <a href="assets/images/post6.jpg" class="mfp-image">
-                                        <img src="{{ asset('assets/images/post6.jpg') }}" alt="" />
+                                        <img src="{{ asset('assets/images/post6.jpg') }}" alt=""/>
                                     </a>
                                 </div>
                             </div>
-                            <p>Our immediate goal is to complete the testing phase and achieve the certification, which will
+                            <p>Our immediate goal is to complete the testing phase and achieve the certification, which
+                                will
                                 allow us to bring our product to market by the end of the year. We are actively engaging
-                                with waste to energy operators, concrete manufacturers, and the wider construction industry
+                                with waste to energy operators, concrete manufacturers, and the wider construction
+                                industry
                             </p>
                         </div>
                     </div>
@@ -157,7 +166,7 @@
                     <!-- Navigation -->
                     <div class="onovo-page-navigation">
                         <div class="onovo-page-navigation-content">
-                            <a href="{{route('blog-details')}}" class="page-navigation__prev">
+                            <a href="{{route('what-are-design-patterns')}}" class="page-navigation__prev">
                                 <span class="onovo-prev onovo-hover-2">
                                     <i></i>
                                 </span>
@@ -165,7 +174,7 @@
                             <a href="{{route('blog')}}" class="page-navigation__posts">
                                 <i class="fas fa-th"></i>
                             </a>
-                            <a href="{{route('blog-details')}}" class="page-navigation__next">
+                            <a href="{{route('what-are-design-patterns')}}" class="page-navigation__next">
                                 <span class="onovo-next onovo-hover-2">
                                     <i></i>
                                 </span>

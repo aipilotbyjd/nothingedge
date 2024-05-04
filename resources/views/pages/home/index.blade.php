@@ -20,8 +20,8 @@
             </h1>
             <div class="text">
                 <div class="subtitle onovo-text-white">
-                    <div data-splitting data-onovo-scroll> Creative studio at the <br> intersection of art,
-                        design <br> and technology. </div>
+                    <div data-splitting data-onovo-scroll> Web and mobile development <br>
+                        Agency</div>
                 </div>
             </div>
             <a href="#" class="onovo-play-btn">
@@ -830,7 +830,7 @@
                     <div class="onovo-cta-text">
                         <a href="mailto:contact@nothingedge.com" target="_blank">contact@nothingedge.com</a>
                         <p>111,Sankalp Icon, Police station road, opp. Parikh Hospital, Nikol,
-                            Ahmedabad-382350, India.</p>
+                            Ahmedabad-382350,Gujarat,India.</p>
                     </div>
 
                 </div>
